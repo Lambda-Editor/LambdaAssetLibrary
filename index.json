@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "name": "Lambda Asset Library",
+  "updated": "2026-11-24",
+  "repo": "Lambda-Editor/LambdaAssetLibrary",
+  "branch": "main",
+  "thumb_base": "https://raw.githubusercontent.com/Lambda-Editor/LambdaAssetLibrary/main/",
+  "release_base": "https://github.com/Lambda-Editor/LambdaAssetLibrary/releases/download/",
+  "license": "CC0-1.0",
+  "categories": ["models", "textures", "shaders", "animations", "skyboxes", "sfx"],
+  "packs": [
+  ]
+}
