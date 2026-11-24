@@ -1,13 +1,6871 @@
 {
-  "schema": 1,
-  "name": "Lambda Asset Library",
-  "updated": "2026-11-24",
-  "repo": "Lambda-Editor/LambdaAssetLibrary",
-  "branch": "main",
-  "thumb_base": "https://raw.githubusercontent.com/Lambda-Editor/LambdaAssetLibrary/main/",
-  "release_base": "https://github.com/Lambda-Editor/LambdaAssetLibrary/releases/download/",
-  "license": "CC0-1.0",
-  "categories": ["models", "textures", "shaders", "animations", "skyboxes", "sfx"],
-  "packs": [
-  ]
+ "schema": 1,
+ "name": "Lambda Asset Library",
+ "updated": "2026-11-24",
+ "repo": "Lambda-Editor/LambdaAssetLibrary",
+ "branch": "main",
+ "thumb_base": "https://raw.githubusercontent.com/Lambda-Editor/LambdaAssetLibrary/main/",
+ "release_base": "https://github.com/Lambda-Editor/LambdaAssetLibrary/releases/download/",
+ "license": "CC0-1.0",
+ "categories": [
+  "models",
+  "textures",
+  "shaders",
+  "animations",
+  "skyboxes",
+  "sfx"
+ ],
+ "packs": [
+  {
+   "id": "urban",
+   "name": "Urban Kit",
+   "category": "models",
+   "description": "City props \u2014 fences, walls, pipes, vents, traffic lights, cones, barriers, litter, bus stops and roads. Low-poly, textured, game-ready.",
+   "tag": "urban",
+   "pack_zip": "urban.zip",
+   "pack_size": 36205990,
+   "asset_count": 446,
+   "assets": [
+    {
+     "id": "block_foot_wall",
+     "name": "Block Foot Wall",
+     "file": "block_foot_wall.glb",
+     "size": 225760,
+     "thumb": "thumbnails/urban/block_foot_wall.jpg",
+     "tags": [
+      "block",
+      "building",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "block_foot_wall_corner",
+     "name": "Block Foot Wall Corner",
+     "file": "block_foot_wall_corner.glb",
+     "size": 225912,
+     "thumb": "thumbnails/urban/block_foot_wall_corner.jpg",
+     "tags": [
+      "block",
+      "building",
+      "corner",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "block_foot_wall_small",
+     "name": "Block Foot Wall Small",
+     "file": "block_foot_wall_small.glb",
+     "size": 225768,
+     "thumb": "thumbnails/urban/block_foot_wall_small.jpg",
+     "tags": [
+      "block",
+      "building",
+      "foot",
+      "parts",
+      "small",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "brick_foot_wall",
+     "name": "Brick Foot Wall",
+     "file": "brick_foot_wall.glb",
+     "size": 225760,
+     "thumb": "thumbnails/urban/brick_foot_wall.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "brick_wall",
+     "name": "Brick Wall",
+     "file": "brick_wall.glb",
+     "size": 44172,
+     "thumb": "thumbnails/urban/brick_wall.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "brick_wall_2",
+     "name": "Brick Wall",
+     "file": "brick_wall_2.glb",
+     "size": 225756,
+     "thumb": "thumbnails/urban/brick_wall_2.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "brick_wall_corner",
+     "name": "Brick Wall Corner",
+     "file": "brick_Wall_corner.glb",
+     "size": 45352,
+     "thumb": "thumbnails/urban/brick_wall_corner.jpg",
+     "tags": [
+      "brick",
+      "corner",
+      "fence",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "brick_wall_corner_2",
+     "name": "Brick Wall Corner",
+     "file": "brick_wall_corner_2.glb",
+     "size": 225928,
+     "thumb": "thumbnails/urban/brick_wall_corner_2.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "corner",
+      "parts",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "brick_wall_door",
+     "name": "Brick Wall Door",
+     "file": "brick_wall_door.glb",
+     "size": 226080,
+     "thumb": "thumbnails/urban/brick_wall_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "brick_wall_door_frame",
+     "name": "Brick Wall Door Frame",
+     "file": "brick_wall_door_frame.glb",
+     "size": 226040,
+     "thumb": "thumbnails/urban/brick_wall_door_frame.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "frame",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "brick_wall_door_indent",
+     "name": "Brick Wall Door Indent",
+     "file": "brick_wall_door_indent.glb",
+     "size": 226704,
+     "thumb": "thumbnails/urban/brick_wall_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "indent",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "brick_wall_gate",
+     "name": "Brick Wall Gate",
+     "file": "brick_wall_gate.glb",
+     "size": 57712,
+     "thumb": "thumbnails/urban/brick_wall_gate.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "gate",
+      "wall",
+      "walls"
+     ],
+     "tris": 324
+    },
+    {
+     "id": "brick_wall_metal_door",
+     "name": "Brick Wall Metal Door",
+     "file": "brick_wall_metal_door.glb",
+     "size": 226152,
+     "thumb": "thumbnails/urban/brick_wall_metal_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "metal",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "brick_wall_metal_door_indent",
+     "name": "Brick Wall Metal Door Indent",
+     "file": "brick_wall_metal_door_indent.glb",
+     "size": 226740,
+     "thumb": "thumbnails/urban/brick_wall_metal_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "indent",
+      "metal",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "brick_wall_old_door",
+     "name": "Brick Wall Old Door",
+     "file": "brick_wall_old_door.glb",
+     "size": 226184,
+     "thumb": "thumbnails/urban/brick_wall_old_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "old",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "brick_wall_old_door_indent",
+     "name": "Brick Wall Old Door Indent",
+     "file": "brick_wall_old_door_indent.glb",
+     "size": 226772,
+     "thumb": "thumbnails/urban/brick_wall_old_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "indent",
+      "old",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "brick_wall_one_overhang",
+     "name": "Brick Wall One Overhang",
+     "file": "brick_wall_one_overhang.glb",
+     "size": 44440,
+     "thumb": "thumbnails/urban/brick_wall_one_overhang.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "one",
+      "overhang",
+      "wall",
+      "walls"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "brick_wall_one_overhang_small",
+     "name": "Brick Wall One Overhang Small",
+     "file": "brick_wall_one_overhang_small.glb",
+     "size": 45028,
+     "thumb": "thumbnails/urban/brick_wall_one_overhang_small.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "one",
+      "overhang",
+      "small",
+      "wall",
+      "walls"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "brick_wall_pole",
+     "name": "Brick Wall Pole",
+     "file": "brick_wall_pole.glb",
+     "size": 44108,
+     "thumb": "thumbnails/urban/brick_wall_pole.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "pole",
+      "wall",
+      "walls"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "brick_wall_small",
+     "name": "Brick Wall Small",
+     "file": "brick_wall_small.glb",
+     "size": 44500,
+     "thumb": "thumbnails/urban/brick_wall_small.jpg",
+     "tags": [
+      "brick",
+      "fence",
+      "fences",
+      "small",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "brick_wall_small_2",
+     "name": "Brick Wall Small",
+     "file": "brick_wall_small_2.glb",
+     "size": 225764,
+     "thumb": "thumbnails/urban/brick_wall_small_2.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "parts",
+      "small",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "brick_wall_thin",
+     "name": "Brick Wall Thin",
+     "file": "brick_wall_thin.glb",
+     "size": 225840,
+     "thumb": "thumbnails/urban/brick_wall_thin.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "parts",
+      "thin",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "brick_wall_window_1",
+     "name": "Brick Wall Window 1",
+     "file": "brick_wall_window_1.glb",
+     "size": 226284,
+     "thumb": "thumbnails/urban/brick_wall_window_1.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "parts",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "brick_wall_window_2",
+     "name": "Brick Wall Window 2",
+     "file": "brick_wall_window_2.glb",
+     "size": 226284,
+     "thumb": "thumbnails/urban/brick_wall_window_2.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "parts",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "bridge_support",
+     "name": "Bridge Support",
+     "file": "bridge_support.glb",
+     "size": 40736,
+     "thumb": "thumbnails/urban/bridge_support.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "support"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "bridge_support_alt",
+     "name": "Bridge Support Alt",
+     "file": "bridge_support_alt.glb",
+     "size": 9352,
+     "thumb": "thumbnails/urban/bridge_support_alt.jpg",
+     "tags": [
+      "alt",
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "support"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "busstop",
+     "name": "Busstop",
+     "file": "busstop.glb",
+     "size": 49764,
+     "thumb": "thumbnails/urban/busstop.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "stops"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "busstop_alt",
+     "name": "Busstop Alt",
+     "file": "busstop_alt.glb",
+     "size": 49232,
+     "thumb": "thumbnails/urban/busstop_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "stops"
+     ],
+     "tris": 104
+    },
+    {
+     "id": "busstop_alt_clean_bench",
+     "name": "Busstop Alt Clean Bench",
+     "file": "busstop_alt_clean_bench.glb",
+     "size": 56172,
+     "thumb": "thumbnails/urban/busstop_alt_clean_bench.jpg",
+     "tags": [
+      "alt",
+      "bench",
+      "bus",
+      "busstop",
+      "clean",
+      "stops"
+     ],
+     "tris": 202
+    },
+    {
+     "id": "busstop_bench",
+     "name": "Busstop Bench",
+     "file": "busstop_bench.glb",
+     "size": 49312,
+     "thumb": "thumbnails/urban/busstop_bench.jpg",
+     "tags": [
+      "bench",
+      "bus",
+      "busstop",
+      "stops"
+     ],
+     "tris": 98
+    },
+    {
+     "id": "busstop_bench_alt",
+     "name": "Busstop Bench Alt",
+     "file": "busstop_bench_alt.glb",
+     "size": 49316,
+     "thumb": "thumbnails/urban/busstop_bench_alt.jpg",
+     "tags": [
+      "alt",
+      "bench",
+      "bus",
+      "busstop",
+      "stops"
+     ],
+     "tris": 98
+    },
+    {
+     "id": "busstop_bench_long",
+     "name": "Busstop Bench Long",
+     "file": "busstop_bench_long.glb",
+     "size": 46460,
+     "thumb": "thumbnails/urban/busstop_bench_long.jpg",
+     "tags": [
+      "bench",
+      "bus",
+      "busstop",
+      "long",
+      "stops"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "busstop_bench_long_alt",
+     "name": "Busstop Bench Long Alt",
+     "file": "busstop_bench_long_alt.glb",
+     "size": 46464,
+     "thumb": "thumbnails/urban/busstop_bench_long_alt.jpg",
+     "tags": [
+      "alt",
+      "bench",
+      "bus",
+      "busstop",
+      "long",
+      "stops"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "busstop_clean_bench",
+     "name": "Busstop Clean Bench",
+     "file": "busstop_clean_bench.glb",
+     "size": 57748,
+     "thumb": "thumbnails/urban/busstop_clean_bench.jpg",
+     "tags": [
+      "bench",
+      "bus",
+      "busstop",
+      "clean",
+      "stops"
+     ],
+     "tris": 220
+    },
+    {
+     "id": "busstop_clean_bench_round_roof",
+     "name": "Busstop Clean Bench Round Roof",
+     "file": "busstop_clean_bench_round_roof.glb",
+     "size": 80040,
+     "thumb": "thumbnails/urban/busstop_clean_bench_round_roof.jpg",
+     "tags": [
+      "bench",
+      "bus",
+      "busstop",
+      "clean",
+      "roof",
+      "round",
+      "stops"
+     ],
+     "tris": 562
+    },
+    {
+     "id": "busstop_clean_seats",
+     "name": "Busstop Clean Seats",
+     "file": "busstop_clean_seats.glb",
+     "size": 65504,
+     "thumb": "thumbnails/urban/busstop_clean_seats.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "clean",
+      "seats",
+      "stops"
+     ],
+     "tris": 332
+    },
+    {
+     "id": "busstop_clean_seats_alt",
+     "name": "Busstop Clean Seats Alt",
+     "file": "busstop_clean_seats_alt.glb",
+     "size": 64972,
+     "thumb": "thumbnails/urban/busstop_clean_seats_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "clean",
+      "seats",
+      "stops"
+     ],
+     "tris": 328
+    },
+    {
+     "id": "busstop_clean_seats_round_roof",
+     "name": "Busstop Clean Seats Round Roof",
+     "file": "busstop_clean_seats_round_roof.glb",
+     "size": 69884,
+     "thumb": "thumbnails/urban/busstop_clean_seats_round_roof.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "clean",
+      "roof",
+      "round",
+      "seats",
+      "stops"
+     ],
+     "tris": 420
+    },
+    {
+     "id": "busstop_graffiti",
+     "name": "Busstop Graffiti",
+     "file": "busstop_graffiti.glb",
+     "size": 54040,
+     "thumb": "thumbnails/urban/busstop_graffiti.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 168
+    },
+    {
+     "id": "busstop_graffiti_alt",
+     "name": "Busstop Graffiti Alt",
+     "file": "busstop_graffiti_alt.glb",
+     "size": 56308,
+     "thumb": "thumbnails/urban/busstop_graffiti_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "busstop_graffiti_round_roof",
+     "name": "Busstop Graffiti Round Roof",
+     "file": "busstop_graffiti_round_roof.glb",
+     "size": 68004,
+     "thumb": "thumbnails/urban/busstop_graffiti_round_roof.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "graffiti",
+      "roof",
+      "round",
+      "stops"
+     ],
+     "tris": 392
+    },
+    {
+     "id": "busstop_round_roof",
+     "name": "Busstop Round Roof",
+     "file": "busstop_round_roof.glb",
+     "size": 54148,
+     "thumb": "thumbnails/urban/busstop_round_roof.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "roof",
+      "round",
+      "stops"
+     ],
+     "tris": 196
+    },
+    {
+     "id": "busstop_single_seat",
+     "name": "Busstop Single Seat",
+     "file": "busstop_single_seat.glb",
+     "size": 52820,
+     "thumb": "thumbnails/urban/busstop_single_seat.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "busstop_single_seat_alt",
+     "name": "Busstop Single Seat Alt",
+     "file": "busstop_single_seat_alt.glb",
+     "size": 52824,
+     "thumb": "thumbnails/urban/busstop_single_seat_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "busstop_single_seat_alt2",
+     "name": "Busstop Single Seat Alt2",
+     "file": "busstop_single_seat_alt2.glb",
+     "size": 52824,
+     "thumb": "thumbnails/urban/busstop_single_seat_alt2.jpg",
+     "tags": [
+      "alt2",
+      "bus",
+      "busstop",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "busstop_single_seat_loose",
+     "name": "Busstop Single Seat Loose",
+     "file": "busstop_single_seat_loose.glb",
+     "size": 46616,
+     "thumb": "thumbnails/urban/busstop_single_seat_loose.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "loose",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "busstop_single_seat_loose_alt",
+     "name": "Busstop Single Seat Loose Alt",
+     "file": "busstop_single_seat_loose_alt.glb",
+     "size": 46620,
+     "thumb": "thumbnails/urban/busstop_single_seat_loose_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "loose",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "busstop_single_seat_loose_alt2",
+     "name": "Busstop Single Seat Loose Alt2",
+     "file": "busstop_single_seat_loose_alt2.glb",
+     "size": 46620,
+     "thumb": "thumbnails/urban/busstop_single_seat_loose_alt2.jpg",
+     "tags": [
+      "alt2",
+      "bus",
+      "busstop",
+      "loose",
+      "seat",
+      "single",
+      "stops"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "busstop_three_seats",
+     "name": "Busstop Three Seats",
+     "file": "busstop_three_seats.glb",
+     "size": 58140,
+     "thumb": "thumbnails/urban/busstop_three_seats.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "three"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "busstop_three_seats_alt",
+     "name": "Busstop Three Seats Alt",
+     "file": "busstop_three_seats_alt.glb",
+     "size": 58144,
+     "thumb": "thumbnails/urban/busstop_three_seats_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "three"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "busstop_three_seats_alt2",
+     "name": "Busstop Three Seats Alt2",
+     "file": "busstop_three_seats_alt2.glb",
+     "size": 58144,
+     "thumb": "thumbnails/urban/busstop_three_seats_alt2.jpg",
+     "tags": [
+      "alt2",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "three"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "busstop_three_seats_alt3",
+     "name": "Busstop Three Seats Alt3",
+     "file": "busstop_three_seats_alt3.glb",
+     "size": 58144,
+     "thumb": "thumbnails/urban/busstop_three_seats_alt3.jpg",
+     "tags": [
+      "alt3",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "three"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "busstop_three_seats_alt4",
+     "name": "Busstop Three Seats Alt4",
+     "file": "busstop_three_seats_alt4.glb",
+     "size": 58144,
+     "thumb": "thumbnails/urban/busstop_three_seats_alt4.jpg",
+     "tags": [
+      "alt4",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "three"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "busstop_two_seats",
+     "name": "Busstop Two Seats",
+     "file": "busstop_two_seats.glb",
+     "size": 57016,
+     "thumb": "thumbnails/urban/busstop_two_seats.jpg",
+     "tags": [
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "two"
+     ],
+     "tris": 208
+    },
+    {
+     "id": "busstop_two_seats_alt",
+     "name": "Busstop Two Seats Alt",
+     "file": "busstop_two_seats_alt.glb",
+     "size": 57020,
+     "thumb": "thumbnails/urban/busstop_two_seats_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "two"
+     ],
+     "tris": 208
+    },
+    {
+     "id": "busstop_two_seats_alt2",
+     "name": "Busstop Two Seats Alt2",
+     "file": "busstop_two_seats_alt2.glb",
+     "size": 57024,
+     "thumb": "thumbnails/urban/busstop_two_seats_alt2.jpg",
+     "tags": [
+      "alt2",
+      "bus",
+      "busstop",
+      "seats",
+      "stops",
+      "two"
+     ],
+     "tris": 208
+    },
+    {
+     "id": "concrete_foot_wall",
+     "name": "Concrete Foot Wall",
+     "file": "concrete_foot_wall.glb",
+     "size": 225764,
+     "thumb": "thumbnails/urban/concrete_foot_wall.jpg",
+     "tags": [
+      "building",
+      "concrete",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "concrete_foot_wall_corner",
+     "name": "Concrete Foot Wall Corner",
+     "file": "concrete_foot_wall_corner.glb",
+     "size": 225916,
+     "thumb": "thumbnails/urban/concrete_foot_wall_corner.jpg",
+     "tags": [
+      "building",
+      "concrete",
+      "corner",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "concrete_foot_wall_small",
+     "name": "Concrete Foot Wall Small",
+     "file": "concrete_foot_wall_small.glb",
+     "size": 225772,
+     "thumb": "thumbnails/urban/concrete_foot_wall_small.jpg",
+     "tags": [
+      "building",
+      "concrete",
+      "foot",
+      "parts",
+      "small",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "concrete_retro_bollard",
+     "name": "Concrete Retro Bollard",
+     "file": "concrete_retro_bollard.glb",
+     "size": 75672,
+     "thumb": "thumbnails/urban/concrete_retro_bollard.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "concrete",
+      "cones",
+      "retro"
+     ],
+     "tris": 226
+    },
+    {
+     "id": "concrete_retro_bollard_light",
+     "name": "Concrete Retro Bollard Light",
+     "file": "concrete_retro_bollard_light.glb",
+     "size": 75692,
+     "thumb": "thumbnails/urban/concrete_retro_bollard_light.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "concrete",
+      "cones",
+      "light",
+      "retro"
+     ],
+     "tris": 226
+    },
+    {
+     "id": "concrete_wall_corner",
+     "name": "Concrete Wall Corner",
+     "file": "concrete_wall_corner.glb",
+     "size": 225932,
+     "thumb": "thumbnails/urban/concrete_wall_corner.jpg",
+     "tags": [
+      "building",
+      "concrete",
+      "corner",
+      "parts",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "construction_cone._thin",
+     "name": "Construction Cone. Thin",
+     "file": "Construction_cone._thin.glb",
+     "size": 38044,
+     "thumb": "thumbnails/urban/construction_cone._thin.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "construction",
+      "thin"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "construction_cone._thin_rubber",
+     "name": "Construction Cone. Thin Rubber",
+     "file": "Construction_cone._thin_rubber.glb",
+     "size": 38048,
+     "thumb": "thumbnails/urban/construction_cone._thin_rubber.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "construction",
+      "rubber",
+      "thin"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "construction_cone",
+     "name": "Construction Cone",
+     "file": "Construction_cone.glb",
+     "size": 37908,
+     "thumb": "thumbnails/urban/construction_cone.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "construction"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "construction_cone_rubber",
+     "name": "Construction Cone Rubber",
+     "file": "Construction_cone_rubber.glb",
+     "size": 37916,
+     "thumb": "thumbnails/urban/construction_cone_rubber.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "construction",
+      "rubber"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "drystone_column",
+     "name": "Drystone Column",
+     "file": "drystone_column.glb",
+     "size": 35604,
+     "thumb": "thumbnails/urban/drystone_column.jpg",
+     "tags": [
+      "column",
+      "drystone",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 28
+    },
+    {
+     "id": "drystone_column_capped",
+     "name": "Drystone Column Capped",
+     "file": "drystone_column_capped.glb",
+     "size": 44432,
+     "thumb": "thumbnails/urban/drystone_column_capped.jpg",
+     "tags": [
+      "capped",
+      "column",
+      "drystone",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "drystone_column_tiles",
+     "name": "Drystone Column Tiles",
+     "file": "drystone_column_tiles.glb",
+     "size": 68996,
+     "thumb": "thumbnails/urban/drystone_column_tiles.jpg",
+     "tags": [
+      "column",
+      "drystone",
+      "fences",
+      "tiles",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "drystone_wall",
+     "name": "Drystone Wall",
+     "file": "drystone_wall.glb",
+     "size": 39932,
+     "thumb": "thumbnails/urban/drystone_wall.jpg",
+     "tags": [
+      "drystone",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 104
+    },
+    {
+     "id": "drystone_wall_capped",
+     "name": "Drystone Wall Capped",
+     "file": "drystone_wall_capped.glb",
+     "size": 48096,
+     "thumb": "thumbnails/urban/drystone_wall_capped.jpg",
+     "tags": [
+      "capped",
+      "drystone",
+      "fences",
+      "wall",
+      "walls"
+     ],
+     "tris": 116
+    },
+    {
+     "id": "drystone_wall_half",
+     "name": "Drystone Wall Half",
+     "file": "drystone_wall_half.glb",
+     "size": 37652,
+     "thumb": "thumbnails/urban/drystone_wall_half.jpg",
+     "tags": [
+      "drystone",
+      "fences",
+      "half",
+      "wall",
+      "walls"
+     ],
+     "tris": 64
+    },
+    {
+     "id": "drystone_wall_half_capped",
+     "name": "Drystone Wall Half Capped",
+     "file": "drystone_wall_half_capped.glb",
+     "size": 46076,
+     "thumb": "thumbnails/urban/drystone_wall_half_capped.jpg",
+     "tags": [
+      "capped",
+      "drystone",
+      "fences",
+      "half",
+      "wall",
+      "walls"
+     ],
+     "tris": 76
+    },
+    {
+     "id": "drystone_wall_half_tiles",
+     "name": "Drystone Wall Half Tiles",
+     "file": "drystone_wall_half_tiles.glb",
+     "size": 72836,
+     "thumb": "thumbnails/urban/drystone_wall_half_tiles.jpg",
+     "tags": [
+      "drystone",
+      "fences",
+      "half",
+      "tiles",
+      "wall",
+      "walls"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "drystone_wall_tiles",
+     "name": "Drystone Wall Tiles",
+     "file": "drystone_wall_tiles.glb",
+     "size": 76756,
+     "thumb": "thumbnails/urban/drystone_wall_tiles.jpg",
+     "tags": [
+      "drystone",
+      "fences",
+      "tiles",
+      "wall",
+      "walls"
+     ],
+     "tris": 172
+    },
+    {
+     "id": "duct",
+     "name": "Duct",
+     "file": "duct.glb",
+     "size": 37628,
+     "thumb": "thumbnails/urban/duct.jpg",
+     "tags": [
+      "duct",
+      "vents"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "duct_corner_rounded",
+     "name": "Duct Corner Rounded",
+     "file": "duct_corner_rounded.glb",
+     "size": 40280,
+     "thumb": "thumbnails/urban/duct_corner_rounded.jpg",
+     "tags": [
+      "corner",
+      "duct",
+      "rounded",
+      "vents"
+     ],
+     "tris": 88
+    },
+    {
+     "id": "duct_corner_sharp",
+     "name": "Duct Corner Sharp",
+     "file": "duct_corner_sharp.glb",
+     "size": 39460,
+     "thumb": "thumbnails/urban/duct_corner_sharp.jpg",
+     "tags": [
+      "corner",
+      "duct",
+      "sharp",
+      "vents"
+     ],
+     "tris": 64
+    },
+    {
+     "id": "duct_intersection_4way",
+     "name": "Duct Intersection 4Way",
+     "file": "duct_intersection_4way.glb",
+     "size": 41656,
+     "thumb": "thumbnails/urban/duct_intersection_4way.jpg",
+     "tags": [
+      "4way",
+      "duct",
+      "intersection",
+      "vents"
+     ],
+     "tris": 104
+    },
+    {
+     "id": "duct_intersection_t",
+     "name": "Duct Intersection T",
+     "file": "duct_intersection_T.glb",
+     "size": 40448,
+     "thumb": "thumbnails/urban/duct_intersection_t.jpg",
+     "tags": [
+      "duct",
+      "intersection",
+      "vents"
+     ],
+     "tris": 84
+    },
+    {
+     "id": "duct_long",
+     "name": "Duct Long",
+     "file": "duct_long.glb",
+     "size": 37584,
+     "thumb": "thumbnails/urban/duct_long.jpg",
+     "tags": [
+      "duct",
+      "long",
+      "vents"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "duct_slanted",
+     "name": "Duct Slanted",
+     "file": "duct_slanted.glb",
+     "size": 38136,
+     "thumb": "thumbnails/urban/duct_slanted.jpg",
+     "tags": [
+      "duct",
+      "slanted",
+      "vents"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "dumpster_diagonal_closed",
+     "name": "Dumpster Diagonal Closed",
+     "file": "dumpster_diagonal_closed.glb",
+     "size": 59232,
+     "thumb": "thumbnails/urban/dumpster_diagonal_closed.jpg",
+     "tags": [
+      "closed",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "litter"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_closed_blue",
+     "name": "Dumpster Diagonal Closed Blue",
+     "file": "dumpster_diagonal_closed_blue.glb",
+     "size": 58700,
+     "thumb": "thumbnails/urban/dumpster_diagonal_closed_blue.jpg",
+     "tags": [
+      "blue",
+      "closed",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "litter"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_closed_red",
+     "name": "Dumpster Diagonal Closed Red",
+     "file": "dumpster_diagonal_closed_red.glb",
+     "size": 50196,
+     "thumb": "thumbnails/urban/dumpster_diagonal_closed_red.jpg",
+     "tags": [
+      "closed",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "litter",
+      "red"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_empty_no_lid",
+     "name": "Dumpster Diagonal Empty No Lid",
+     "file": "dumpster_diagonal_empty_no_lid.glb",
+     "size": 55568,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_no_lid.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "dumpster_diagonal_empty_no_lid_blue",
+     "name": "Dumpster Diagonal Empty No Lid Blue",
+     "file": "dumpster_diagonal_empty_no_lid_blue.glb",
+     "size": 55040,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_no_lid_blue.jpg",
+     "tags": [
+      "blue",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "dumpster_diagonal_empty_no_lid_red",
+     "name": "Dumpster Diagonal Empty No Lid Red",
+     "file": "dumpster_diagonal_empty_no_lid_red.glb",
+     "size": 46512,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_no_lid_red.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter",
+      "red"
+     ],
+     "tris": 148
+    },
+    {
+     "id": "dumpster_diagonal_empty_open",
+     "name": "Dumpster Diagonal Empty Open",
+     "file": "dumpster_diagonal_empty_open.glb",
+     "size": 59236,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_open.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "litter",
+      "open"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_empty_open_blue",
+     "name": "Dumpster Diagonal Empty Open Blue",
+     "file": "dumpster_diagonal_empty_open_blue.glb",
+     "size": 58704,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_open_blue.jpg",
+     "tags": [
+      "blue",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "litter",
+      "open"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_empty_open_red",
+     "name": "Dumpster Diagonal Empty Open Red",
+     "file": "dumpster_diagonal_empty_open_red.glb",
+     "size": 50200,
+     "thumb": "thumbnails/urban/dumpster_diagonal_empty_open_red.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "litter",
+      "open",
+      "red"
+     ],
+     "tris": 204
+    },
+    {
+     "id": "dumpster_diagonal_full_no_lid",
+     "name": "Dumpster Diagonal Full No Lid",
+     "file": "dumpster_diagonal_full_no_lid.glb",
+     "size": 143864,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_no_lid.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter"
+     ],
+     "tris": 378
+    },
+    {
+     "id": "dumpster_diagonal_full_no_lid_blue",
+     "name": "Dumpster Diagonal Full No Lid Blue",
+     "file": "dumpster_diagonal_full_no_lid_blue.glb",
+     "size": 143336,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_no_lid_blue.jpg",
+     "tags": [
+      "blue",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter"
+     ],
+     "tris": 378
+    },
+    {
+     "id": "dumpster_diagonal_full_no_lid_red",
+     "name": "Dumpster Diagonal Full No Lid Red",
+     "file": "dumpster_diagonal_full_no_lid_red.glb",
+     "size": 134828,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_no_lid_red.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter",
+      "red"
+     ],
+     "tris": 378
+    },
+    {
+     "id": "dumpster_diagonal_full_open",
+     "name": "Dumpster Diagonal Full Open",
+     "file": "dumpster_diagonal_full_open.glb",
+     "size": 140080,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_open.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "litter",
+      "open"
+     ],
+     "tris": 422
+    },
+    {
+     "id": "dumpster_diagonal_full_open_blue",
+     "name": "Dumpster Diagonal Full Open Blue",
+     "file": "dumpster_diagonal_full_open_blue.glb",
+     "size": 139548,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_open_blue.jpg",
+     "tags": [
+      "blue",
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "litter",
+      "open"
+     ],
+     "tris": 422
+    },
+    {
+     "id": "dumpster_diagonal_full_open_red",
+     "name": "Dumpster Diagonal Full Open Red",
+     "file": "dumpster_diagonal_full_open_red.glb",
+     "size": 131040,
+     "thumb": "thumbnails/urban/dumpster_diagonal_full_open_red.jpg",
+     "tags": [
+      "diagonal",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "litter",
+      "open",
+      "red"
+     ],
+     "tris": 422
+    },
+    {
+     "id": "dumpster_empty_lid_open",
+     "name": "Dumpster Empty Lid Open",
+     "file": "dumpster_empty_lid_open.glb",
+     "size": 60116,
+     "thumb": "thumbnails/urban/dumpster_empty_lid_open.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter",
+      "open"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_empty_lid_open_blue",
+     "name": "Dumpster Empty Lid Open Blue",
+     "file": "dumpster_empty_lid_open_blue.glb",
+     "size": 59584,
+     "thumb": "thumbnails/urban/dumpster_empty_lid_open_blue.jpg",
+     "tags": [
+      "blue",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter",
+      "open"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_empty_lid_open_red",
+     "name": "Dumpster Empty Lid Open Red",
+     "file": "dumpster_empty_lid_open_red.glb",
+     "size": 51060,
+     "thumb": "thumbnails/urban/dumpster_empty_lid_open_red.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter",
+      "open",
+      "red"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_empty_no_lid",
+     "name": "Dumpster Empty No Lid",
+     "file": "dumpster_empty_no_lid.glb",
+     "size": 56468,
+     "thumb": "thumbnails/urban/dumpster_empty_no_lid.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter"
+     ],
+     "tris": 168
+    },
+    {
+     "id": "dumpster_empty_no_lid_blue",
+     "name": "Dumpster Empty No Lid Blue",
+     "file": "dumpster_empty_no_lid_blue.glb",
+     "size": 55920,
+     "thumb": "thumbnails/urban/dumpster_empty_no_lid_blue.jpg",
+     "tags": [
+      "blue",
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter"
+     ],
+     "tris": 168
+    },
+    {
+     "id": "dumpster_empty_no_lid_red",
+     "name": "Dumpster Empty No Lid Red",
+     "file": "dumpster_empty_no_lid_red.glb",
+     "size": 47416,
+     "thumb": "thumbnails/urban/dumpster_empty_no_lid_red.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "empty",
+      "lid",
+      "litter",
+      "red"
+     ],
+     "tris": 168
+    },
+    {
+     "id": "dumpster_full_lid_open",
+     "name": "Dumpster Full Lid Open",
+     "file": "dumpster_full_lid_open.glb",
+     "size": 148416,
+     "thumb": "thumbnails/urban/dumpster_full_lid_open.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter",
+      "open"
+     ],
+     "tris": 454
+    },
+    {
+     "id": "dumpster_full_lid_open_blue",
+     "name": "Dumpster Full Lid Open Blue",
+     "file": "dumpster_full_lid_open_blue.glb",
+     "size": 147884,
+     "thumb": "thumbnails/urban/dumpster_full_lid_open_blue.jpg",
+     "tags": [
+      "blue",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter",
+      "open"
+     ],
+     "tris": 454
+    },
+    {
+     "id": "dumpster_full_lid_open_red",
+     "name": "Dumpster Full Lid Open Red",
+     "file": "dumpster_full_lid_open_red.glb",
+     "size": 139376,
+     "thumb": "thumbnails/urban/dumpster_full_lid_open_red.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter",
+      "open",
+      "red"
+     ],
+     "tris": 454
+    },
+    {
+     "id": "dumpster_full_no_lid",
+     "name": "Dumpster Full No Lid",
+     "file": "dumpster_full_no_lid.glb",
+     "size": 137312,
+     "thumb": "thumbnails/urban/dumpster_full_no_lid.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter"
+     ],
+     "tris": 386
+    },
+    {
+     "id": "dumpster_full_no_lid_blue",
+     "name": "Dumpster Full No Lid Blue",
+     "file": "dumpster_full_no_lid_blue.glb",
+     "size": 136764,
+     "thumb": "thumbnails/urban/dumpster_full_no_lid_blue.jpg",
+     "tags": [
+      "blue",
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter"
+     ],
+     "tris": 386
+    },
+    {
+     "id": "dumpster_full_no_lid_red",
+     "name": "Dumpster Full No Lid Red",
+     "file": "dumpster_full_no_lid_red.glb",
+     "size": 128256,
+     "thumb": "thumbnails/urban/dumpster_full_no_lid_red.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "full",
+      "lid",
+      "litter",
+      "red"
+     ],
+     "tris": 386
+    },
+    {
+     "id": "dumpster_lid_1",
+     "name": "Dumpster Lid 1",
+     "file": "dumpster_lid_1.glb",
+     "size": 48164,
+     "thumb": "thumbnails/urban/dumpster_lid_1.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "lid",
+      "litter"
+     ],
+     "tris": 28
+    },
+    {
+     "id": "dumpster_lid_2",
+     "name": "Dumpster Lid 2",
+     "file": "dumpster_lid_2.glb",
+     "size": 48164,
+     "thumb": "thumbnails/urban/dumpster_lid_2.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "lid",
+      "litter"
+     ],
+     "tris": 28
+    },
+    {
+     "id": "dumpster_lid_closed",
+     "name": "Dumpster Lid Closed",
+     "file": "dumpster_lid_closed.glb",
+     "size": 60096,
+     "thumb": "thumbnails/urban/dumpster_lid_closed.jpg",
+     "tags": [
+      "closed",
+      "dumpster",
+      "dumpsters",
+      "lid",
+      "litter"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_lid_closed_blue",
+     "name": "Dumpster Lid Closed Blue",
+     "file": "dumpster_lid_closed_blue.glb",
+     "size": 59564,
+     "thumb": "thumbnails/urban/dumpster_lid_closed_blue.jpg",
+     "tags": [
+      "blue",
+      "closed",
+      "dumpster",
+      "dumpsters",
+      "lid",
+      "litter"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_lid_closed_red",
+     "name": "Dumpster Lid Closed Red",
+     "file": "dumpster_lid_closed_red.glb",
+     "size": 51056,
+     "thumb": "thumbnails/urban/dumpster_lid_closed_red.jpg",
+     "tags": [
+      "closed",
+      "dumpster",
+      "dumpsters",
+      "lid",
+      "litter",
+      "red"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "dumpster_trashpile_1",
+     "name": "Dumpster Trashpile 1",
+     "file": "dumpster_trashpile_1.glb",
+     "size": 88724,
+     "thumb": "thumbnails/urban/dumpster_trashpile_1.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "litter",
+      "trashpile"
+     ],
+     "tris": 230
+    },
+    {
+     "id": "dumpster_trashpile_2",
+     "name": "Dumpster Trashpile 2",
+     "file": "dumpster_trashpile_2.glb",
+     "size": 81272,
+     "thumb": "thumbnails/urban/dumpster_trashpile_2.jpg",
+     "tags": [
+      "dumpster",
+      "dumpsters",
+      "litter",
+      "trashpile"
+     ],
+     "tris": 218
+    },
+    {
+     "id": "fancy_brick_foot_wall",
+     "name": "Fancy Brick Foot Wall",
+     "file": "fancy_brick_foot_wall.glb",
+     "size": 225768,
+     "thumb": "thumbnails/urban/fancy_brick_foot_wall.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "foot",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "fancy_brick_wall",
+     "name": "Fancy Brick Wall",
+     "file": "fancy_brick_wall.glb",
+     "size": 225764,
+     "thumb": "thumbnails/urban/fancy_brick_wall.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "parts",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "fancy_brick_wall_corner",
+     "name": "Fancy Brick Wall Corner",
+     "file": "fancy_brick_wall_corner.glb",
+     "size": 225932,
+     "thumb": "thumbnails/urban/fancy_brick_wall_corner.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "corner",
+      "fancy",
+      "parts",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "fancy_brick_wall_door",
+     "name": "Fancy Brick Wall Door",
+     "file": "fancy_brick_wall_door.glb",
+     "size": 226088,
+     "thumb": "thumbnails/urban/fancy_brick_wall_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "fancy_brick_wall_door_frame",
+     "name": "Fancy Brick Wall Door Frame",
+     "file": "fancy_brick_wall_door_frame.glb",
+     "size": 226044,
+     "thumb": "thumbnails/urban/fancy_brick_wall_door_frame.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "frame",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "fancy_brick_wall_door_indent",
+     "name": "Fancy Brick Wall Door Indent",
+     "file": "fancy_brick_wall_door_indent.glb",
+     "size": 226708,
+     "thumb": "thumbnails/urban/fancy_brick_wall_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "indent",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "fancy_brick_wall_metal_door",
+     "name": "Fancy Brick Wall Metal Door",
+     "file": "fancy_brick_wall_metal_door.glb",
+     "size": 226192,
+     "thumb": "thumbnails/urban/fancy_brick_wall_metal_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "metal",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "fancy_brick_wall_metal_door_indent",
+     "name": "Fancy Brick Wall Metal Door Indent",
+     "file": "fancy_brick_wall_metal_door_indent.glb",
+     "size": 226780,
+     "thumb": "thumbnails/urban/fancy_brick_wall_metal_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "indent",
+      "metal",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "fancy_brick_wall_old_door",
+     "name": "Fancy Brick Wall Old Door",
+     "file": "fancy_brick_wall_old_door.glb",
+     "size": 226188,
+     "thumb": "thumbnails/urban/fancy_brick_wall_old_door.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "old",
+      "parts",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "fancy_brick_wall_old_door_indent",
+     "name": "Fancy Brick Wall Old Door Indent",
+     "file": "fancy_brick_wall_old_door_indent.glb",
+     "size": 226776,
+     "thumb": "thumbnails/urban/fancy_brick_wall_old_door_indent.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "door",
+      "fancy",
+      "indent",
+      "old",
+      "parts",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "fancy_brick_wall_small",
+     "name": "Fancy Brick Wall Small",
+     "file": "fancy_brick_wall_small.glb",
+     "size": 225768,
+     "thumb": "thumbnails/urban/fancy_brick_wall_small.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "parts",
+      "small",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "fancy_brick_wall_thin",
+     "name": "Fancy Brick Wall Thin",
+     "file": "fancy_brick_wall_thin.glb",
+     "size": 225768,
+     "thumb": "thumbnails/urban/fancy_brick_wall_thin.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "parts",
+      "thin",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "fancy_brick_wall_window_1",
+     "name": "Fancy Brick Wall Window 1",
+     "file": "fancy_brick_wall_window_1.glb",
+     "size": 226288,
+     "thumb": "thumbnails/urban/fancy_brick_wall_window_1.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "parts",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "fancy_brick_wall_window_2",
+     "name": "Fancy Brick Wall Window 2",
+     "file": "fancy_brick_wall_window_2.glb",
+     "size": 226288,
+     "thumb": "thumbnails/urban/fancy_brick_wall_window_2.jpg",
+     "tags": [
+      "brick",
+      "building",
+      "fancy",
+      "parts",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "flat_lshape",
+     "name": "Flat Lshape",
+     "file": "flat_Lshape.glb",
+     "size": 312840,
+     "thumb": "thumbnails/urban/flat_lshape.jpg",
+     "tags": [
+      "buildings",
+      "flat",
+      "lshape",
+      "prebuild"
+     ],
+     "tris": 1708
+    },
+    {
+     "id": "flat_lshape_brick",
+     "name": "Flat Lshape Brick",
+     "file": "flat_Lshape_brick.glb",
+     "size": 294260,
+     "thumb": "thumbnails/urban/flat_lshape_brick.jpg",
+     "tags": [
+      "brick",
+      "buildings",
+      "flat",
+      "lshape",
+      "prebuild"
+     ],
+     "tris": 1328
+    },
+    {
+     "id": "flat_lshape_large_alt",
+     "name": "Flat Lshape Large Alt",
+     "file": "flat_Lshape_large_alt.glb",
+     "size": 368480,
+     "thumb": "thumbnails/urban/flat_lshape_large_alt.jpg",
+     "tags": [
+      "alt",
+      "buildings",
+      "flat",
+      "large",
+      "lshape",
+      "prebuild"
+     ],
+     "tris": 2848
+    },
+    {
+     "id": "flat_lshape_vertical_stripes",
+     "name": "Flat Lshape Vertical Stripes",
+     "file": "flat_Lshape_vertical_stripes.glb",
+     "size": 367728,
+     "thumb": "thumbnails/urban/flat_lshape_vertical_stripes.jpg",
+     "tags": [
+      "buildings",
+      "flat",
+      "lshape",
+      "prebuild",
+      "stripes",
+      "vertical"
+     ],
+     "tris": 2848
+    },
+    {
+     "id": "flat_square_brick",
+     "name": "Flat Square Brick",
+     "file": "flat_square_brick.glb",
+     "size": 287768,
+     "thumb": "thumbnails/urban/flat_square_brick.jpg",
+     "tags": [
+      "brick",
+      "buildings",
+      "flat",
+      "prebuild",
+      "square"
+     ],
+     "tris": 1138
+    },
+    {
+     "id": "flat_square_brick_alt",
+     "name": "Flat Square Brick Alt",
+     "file": "flat_square_brick_alt.glb",
+     "size": 287800,
+     "thumb": "thumbnails/urban/flat_square_brick_alt.jpg",
+     "tags": [
+      "alt",
+      "brick",
+      "buildings",
+      "flat",
+      "prebuild",
+      "square"
+     ],
+     "tris": 1138
+    },
+    {
+     "id": "flat_square_concrete",
+     "name": "Flat Square Concrete",
+     "file": "flat_square_concrete.glb",
+     "size": 289624,
+     "thumb": "thumbnails/urban/flat_square_concrete.jpg",
+     "tags": [
+      "buildings",
+      "concrete",
+      "flat",
+      "prebuild",
+      "square"
+     ],
+     "tris": 1164
+    },
+    {
+     "id": "flat_square_concrete_alt",
+     "name": "Flat Square Concrete Alt",
+     "file": "flat_square_concrete_alt.glb",
+     "size": 287808,
+     "thumb": "thumbnails/urban/flat_square_concrete_alt.jpg",
+     "tags": [
+      "alt",
+      "buildings",
+      "concrete",
+      "flat",
+      "prebuild",
+      "square"
+     ],
+     "tris": 1138
+    },
+    {
+     "id": "gate",
+     "name": "Gate",
+     "file": "gate.glb",
+     "size": 116956,
+     "thumb": "thumbnails/urban/gate.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "metal",
+      "walls"
+     ],
+     "tris": 114
+    },
+    {
+     "id": "gate_2",
+     "name": "Gate",
+     "file": "gate_2.glb",
+     "size": 116916,
+     "thumb": "thumbnails/urban/gate_2.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "metal"
+     ],
+     "tris": 114
+    },
+    {
+     "id": "gate_handle",
+     "name": "Gate Handle",
+     "file": "gate_handle.glb",
+     "size": 9768,
+     "thumb": "thumbnails/urban/gate_handle.jpg",
+     "tags": [
+      "fences",
+      "gate",
+      "handle",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "graffiti",
+     "name": "Graffiti",
+     "file": "graffiti.glb",
+     "size": 42604,
+     "thumb": "thumbnails/urban/graffiti.jpg",
+     "tags": [
+      "bus",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "graffiti_alt",
+     "name": "Graffiti Alt",
+     "file": "graffiti_Alt.glb",
+     "size": 42612,
+     "thumb": "thumbnails/urban/graffiti_alt.jpg",
+     "tags": [
+      "alt",
+      "bus",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "graffiti_alt2",
+     "name": "Graffiti Alt2",
+     "file": "graffiti_Alt2.glb",
+     "size": 42656,
+     "thumb": "thumbnails/urban/graffiti_alt2.jpg",
+     "tags": [
+      "alt2",
+      "bus",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "graffiti_alt3",
+     "name": "Graffiti Alt3",
+     "file": "graffiti_Alt3.glb",
+     "size": 42580,
+     "thumb": "thumbnails/urban/graffiti_alt3.jpg",
+     "tags": [
+      "alt3",
+      "bus",
+      "graffiti",
+      "stops"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "hangar1",
+     "name": "Hangar1",
+     "file": "Hangar1.glb",
+     "size": 246992,
+     "thumb": "thumbnails/urban/hangar1.jpg",
+     "tags": [
+      "buildings",
+      "hangar1",
+      "prebuild"
+     ],
+     "tris": 338
+    },
+    {
+     "id": "jersey_barrier",
+     "name": "Jersey Barrier",
+     "file": "Jersey_barrier.glb",
+     "size": 42652,
+     "thumb": "thumbnails/urban/jersey_barrier.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "concrete",
+      "cones",
+      "jersey"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "jersey_barrier_broken_center",
+     "name": "Jersey Barrier Broken Center",
+     "file": "Jersey_barrier_broken_center.glb",
+     "size": 47420,
+     "thumb": "thumbnails/urban/jersey_barrier_broken_center.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "broken",
+      "center",
+      "concrete",
+      "cones",
+      "jersey"
+     ],
+     "tris": 126
+    },
+    {
+     "id": "jersey_barrier_broken_center_dirty",
+     "name": "Jersey Barrier Broken Center Dirty",
+     "file": "Jersey_barrier_broken_center_dirty.glb",
+     "size": 47780,
+     "thumb": "thumbnails/urban/jersey_barrier_broken_center_dirty.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "broken",
+      "center",
+      "concrete",
+      "cones",
+      "dirty",
+      "jersey"
+     ],
+     "tris": 126
+    },
+    {
+     "id": "jersey_barrier_broken_edge",
+     "name": "Jersey Barrier Broken Edge",
+     "file": "Jersey_barrier_broken_edge.glb",
+     "size": 48220,
+     "thumb": "thumbnails/urban/jersey_barrier_broken_edge.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "broken",
+      "concrete",
+      "cones",
+      "edge",
+      "jersey"
+     ],
+     "tris": 126
+    },
+    {
+     "id": "jersey_barrier_broken_edge_dirty",
+     "name": "Jersey Barrier Broken Edge Dirty",
+     "file": "Jersey_barrier_broken_edge_dirty.glb",
+     "size": 48448,
+     "thumb": "thumbnails/urban/jersey_barrier_broken_edge_dirty.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "broken",
+      "concrete",
+      "cones",
+      "dirty",
+      "edge",
+      "jersey"
+     ],
+     "tris": 126
+    },
+    {
+     "id": "jersey_barrier_dirty",
+     "name": "Jersey Barrier Dirty",
+     "file": "Jersey_barrier_dirty.glb",
+     "size": 42848,
+     "thumb": "thumbnails/urban/jersey_barrier_dirty.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "concrete",
+      "cones",
+      "dirty",
+      "jersey"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "light",
+     "name": "Light",
+     "file": "light.glb",
+     "size": 39444,
+     "thumb": "thumbnails/urban/light.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "traffic"
+     ],
+     "tris": 340
+    },
+    {
+     "id": "light_top",
+     "name": "Light Top",
+     "file": "light_top.glb",
+     "size": 38608,
+     "thumb": "thumbnails/urban/light_top.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "top",
+      "traffic"
+     ],
+     "tris": 328
+    },
+    {
+     "id": "metal_fence_gate_with_gate",
+     "name": "Metal Fence Gate With Gate",
+     "file": "metal_fence_gate_with_gate.glb",
+     "size": 30560,
+     "thumb": "thumbnails/urban/metal_fence_gate_with_gate.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "metal",
+      "walls",
+      "with"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "metalfence_both_sides_no_topbar",
+     "name": "Metalfence Both Sides No Topbar",
+     "file": "metalfence_both_sides_no_topbar.glb",
+     "size": 109048,
+     "thumb": "thumbnails/urban/metalfence_both_sides_no_topbar.jpg",
+     "tags": [
+      "both",
+      "fence",
+      "fences",
+      "metal",
+      "metalfence",
+      "sides",
+      "topbar",
+      "walls"
+     ],
+     "tris": 34
+    },
+    {
+     "id": "metalfence_both_sides_topbar",
+     "name": "Metalfence Both Sides Topbar",
+     "file": "metalfence_both_sides_topbar.glb",
+     "size": 109924,
+     "thumb": "thumbnails/urban/metalfence_both_sides_topbar.jpg",
+     "tags": [
+      "both",
+      "fence",
+      "fences",
+      "metal",
+      "metalfence",
+      "sides",
+      "topbar",
+      "walls"
+     ],
+     "tris": 46
+    },
+    {
+     "id": "metalfence_gate_only_sides",
+     "name": "Metalfence Gate Only Sides",
+     "file": "metalfence_gate_only_sides.glb",
+     "size": 30604,
+     "thumb": "thumbnails/urban/metalfence_gate_only_sides.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "metal",
+      "metalfence",
+      "only",
+      "sides",
+      "walls"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "metalfence_one_side_no_topbar",
+     "name": "Metalfence One Side No Topbar",
+     "file": "metalfence_one_side_no_topbar.glb",
+     "size": 107992,
+     "thumb": "thumbnails/urban/metalfence_one_side_no_topbar.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "metal",
+      "metalfence",
+      "one",
+      "side",
+      "topbar",
+      "walls"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "metalfence_one_side_topbar",
+     "name": "Metalfence One Side Topbar",
+     "file": "metalfence_one_side_topbar.glb",
+     "size": 109048,
+     "thumb": "thumbnails/urban/metalfence_one_side_topbar.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "metal",
+      "metalfence",
+      "one",
+      "side",
+      "topbar",
+      "walls"
+     ],
+     "tris": 34
+    },
+    {
+     "id": "metaltrashcan_beaten",
+     "name": "Metaltrashcan Beaten",
+     "file": "metaltrashcan_beaten.glb",
+     "size": 24232,
+     "thumb": "thumbnails/urban/metaltrashcan_beaten.jpg",
+     "tags": [
+      "beaten",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "trashcan"
+     ],
+     "tris": 92
+    },
+    {
+     "id": "metaltrashcan_beaten_alt",
+     "name": "Metaltrashcan Beaten Alt",
+     "file": "metaltrashcan_beaten_alt.glb",
+     "size": 22572,
+     "thumb": "thumbnails/urban/metaltrashcan_beaten_alt.jpg",
+     "tags": [
+      "alt",
+      "beaten",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "trashcan"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "metaltrashcan_beaten_alt_overflowing",
+     "name": "Metaltrashcan Beaten Alt Overflowing",
+     "file": "metaltrashcan_beaten_alt_overflowing.glb",
+     "size": 118636,
+     "thumb": "thumbnails/urban/metaltrashcan_beaten_alt_overflowing.jpg",
+     "tags": [
+      "alt",
+      "beaten",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "overflowing",
+      "trashcan"
+     ],
+     "tris": 158
+    },
+    {
+     "id": "metaltrashcan_beaten_filled",
+     "name": "Metaltrashcan Beaten Filled",
+     "file": "metaltrashcan_beaten_filled.glb",
+     "size": 70260,
+     "thumb": "thumbnails/urban/metaltrashcan_beaten_filled.jpg",
+     "tags": [
+      "beaten",
+      "filled",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "trashcan"
+     ],
+     "tris": 162
+    },
+    {
+     "id": "metaltrashcan_beaten_overflowing",
+     "name": "Metaltrashcan Beaten Overflowing",
+     "file": "metaltrashcan_beaten_overflowing.glb",
+     "size": 151740,
+     "thumb": "thumbnails/urban/metaltrashcan_beaten_overflowing.jpg",
+     "tags": [
+      "beaten",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "overflowing",
+      "trashcan"
+     ],
+     "tris": 288
+    },
+    {
+     "id": "metaltrashcan_closed",
+     "name": "Metaltrashcan Closed",
+     "file": "metaltrashcan_closed.glb",
+     "size": 25796,
+     "thumb": "thumbnails/urban/metaltrashcan_closed.jpg",
+     "tags": [
+      "closed",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "trashcan"
+     ],
+     "tris": 118
+    },
+    {
+     "id": "metaltrashcan_lid",
+     "name": "Metaltrashcan Lid",
+     "file": "metaltrashcan_lid.glb",
+     "size": 22844,
+     "thumb": "thumbnails/urban/metaltrashcan_lid.jpg",
+     "tags": [
+      "lid",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "trashcan"
+     ],
+     "tris": 74
+    },
+    {
+     "id": "metaltrashcan_open",
+     "name": "Metaltrashcan Open",
+     "file": "metaltrashcan_open.glb",
+     "size": 20868,
+     "thumb": "thumbnails/urban/metaltrashcan_open.jpg",
+     "tags": [
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "open",
+      "trashcan"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "metaltrashcan_open_dirty",
+     "name": "Metaltrashcan Open Dirty",
+     "file": "metaltrashcan_open_dirty.glb",
+     "size": 20872,
+     "thumb": "thumbnails/urban/metaltrashcan_open_dirty.jpg",
+     "tags": [
+      "dirty",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "open",
+      "trashcan"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "metaltrashcan_open_filled",
+     "name": "Metaltrashcan Open Filled",
+     "file": "metaltrashcan_open_filled.glb",
+     "size": 66892,
+     "thumb": "thumbnails/urban/metaltrashcan_open_filled.jpg",
+     "tags": [
+      "filled",
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "open",
+      "trashcan"
+     ],
+     "tris": 114
+    },
+    {
+     "id": "metaltrashcan_overflowing",
+     "name": "Metaltrashcan Overflowing",
+     "file": "metaltrashcan_overflowing.glb",
+     "size": 110876,
+     "thumb": "thumbnails/urban/metaltrashcan_overflowing.jpg",
+     "tags": [
+      "litter",
+      "metal",
+      "metaltrashcan",
+      "overflowing",
+      "trashcan"
+     ],
+     "tris": 400
+    },
+    {
+     "id": "pipe",
+     "name": "Pipe",
+     "file": "pipe.glb",
+     "size": 15784,
+     "thumb": "thumbnails/urban/pipe.jpg",
+     "tags": [
+      "pipe",
+      "pipes"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "pipe_corner",
+     "name": "Pipe Corner",
+     "file": "pipe_corner.glb",
+     "size": 17888,
+     "thumb": "thumbnails/urban/pipe_corner.jpg",
+     "tags": [
+      "corner",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "pipe_corner_rusted",
+     "name": "Pipe Corner Rusted",
+     "file": "pipe_corner_rusted.glb",
+     "size": 17896,
+     "thumb": "thumbnails/urban/pipe_corner_rusted.jpg",
+     "tags": [
+      "corner",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "pipe_end",
+     "name": "Pipe End",
+     "file": "pipe_end.glb",
+     "size": 16004,
+     "thumb": "thumbnails/urban/pipe_end.jpg",
+     "tags": [
+      "end",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "pipe_end_rusted",
+     "name": "Pipe End Rusted",
+     "file": "pipe_end_rusted.glb",
+     "size": 16072,
+     "thumb": "thumbnails/urban/pipe_end_rusted.jpg",
+     "tags": [
+      "end",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "pipe_endpieace",
+     "name": "Pipe Endpieace",
+     "file": "pipe_endpieace.glb",
+     "size": 16924,
+     "thumb": "thumbnails/urban/pipe_endpieace.jpg",
+     "tags": [
+      "endpieace",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 28
+    },
+    {
+     "id": "pipe_endpiece_rusted",
+     "name": "Pipe Endpiece Rusted",
+     "file": "pipe_endpiece_rusted.glb",
+     "size": 16928,
+     "thumb": "thumbnails/urban/pipe_endpiece_rusted.jpg",
+     "tags": [
+      "endpiece",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 28
+    },
+    {
+     "id": "pipe_endpiece_with_handle",
+     "name": "Pipe Endpiece With Handle",
+     "file": "pipe_endpiece_with_handle.glb",
+     "size": 18620,
+     "thumb": "thumbnails/urban/pipe_endpiece_with_handle.jpg",
+     "tags": [
+      "endpiece",
+      "handle",
+      "pipe",
+      "pipes",
+      "with"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "pipe_endpiece_with_handle_rusted",
+     "name": "Pipe Endpiece With Handle Rusted",
+     "file": "pipe_endpiece_with_handle_rusted.glb",
+     "size": 18628,
+     "thumb": "thumbnails/urban/pipe_endpiece_with_handle_rusted.jpg",
+     "tags": [
+      "endpiece",
+      "handle",
+      "pipe",
+      "pipes",
+      "rusted",
+      "with"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "pipe_hanger",
+     "name": "Pipe Hanger",
+     "file": "pipe_hanger.glb",
+     "size": 19304,
+     "thumb": "thumbnails/urban/pipe_hanger.jpg",
+     "tags": [
+      "hanger",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 72
+    },
+    {
+     "id": "pipe_hanger_rusted",
+     "name": "Pipe Hanger Rusted",
+     "file": "pipe_hanger_rusted.glb",
+     "size": 19312,
+     "thumb": "thumbnails/urban/pipe_hanger_rusted.jpg",
+     "tags": [
+      "hanger",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 72
+    },
+    {
+     "id": "pipe_intersection_4way",
+     "name": "Pipe Intersection 4Way",
+     "file": "pipe_intersection_4way.glb",
+     "size": 18692,
+     "thumb": "thumbnails/urban/pipe_intersection_4way.jpg",
+     "tags": [
+      "4way",
+      "intersection",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "pipe_intersection_4way_rusted",
+     "name": "Pipe Intersection 4Way Rusted",
+     "file": "pipe_intersection_4way_rusted.glb",
+     "size": 18640,
+     "thumb": "thumbnails/urban/pipe_intersection_4way_rusted.jpg",
+     "tags": [
+      "4way",
+      "intersection",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 52
+    },
+    {
+     "id": "pipe_intersection_t",
+     "name": "Pipe Intersection T",
+     "file": "pipe_intersection_T.glb",
+     "size": 17384,
+     "thumb": "thumbnails/urban/pipe_intersection_t.jpg",
+     "tags": [
+      "intersection",
+      "pipe",
+      "pipes"
+     ],
+     "tris": 38
+    },
+    {
+     "id": "pipe_intersection_t_rusted",
+     "name": "Pipe Intersection T Rusted",
+     "file": "pipe_intersection_T_rusted.glb",
+     "size": 17332,
+     "thumb": "thumbnails/urban/pipe_intersection_t_rusted.jpg",
+     "tags": [
+      "intersection",
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 38
+    },
+    {
+     "id": "pipe_rusted",
+     "name": "Pipe Rusted",
+     "file": "pipe_rusted.glb",
+     "size": 15848,
+     "thumb": "thumbnails/urban/pipe_rusted.jpg",
+     "tags": [
+      "pipe",
+      "pipes",
+      "rusted"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "plackard_broken",
+     "name": "Plackard Broken",
+     "file": "plackard_broken.glb",
+     "size": 144112,
+     "thumb": "thumbnails/urban/plackard_broken.jpg",
+     "tags": [
+      "broken",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 164
+    },
+    {
+     "id": "plackard_broken_2",
+     "name": "Plackard Broken",
+     "file": "plackard_broken_2.glb",
+     "size": 194420,
+     "thumb": "thumbnails/urban/plackard_broken_2.jpg",
+     "tags": [
+      "broken",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 164
+    },
+    {
+     "id": "plackard_broken_alt",
+     "name": "Plackard Broken Alt",
+     "file": "plackard_broken_alt.glb",
+     "size": 142908,
+     "thumb": "thumbnails/urban/plackard_broken_alt.jpg",
+     "tags": [
+      "alt",
+      "broken",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "plackard_broken_alt_2",
+     "name": "Plackard Broken Alt",
+     "file": "plackard_broken_alt_2.glb",
+     "size": 193216,
+     "thumb": "thumbnails/urban/plackard_broken_alt_2.jpg",
+     "tags": [
+      "alt",
+      "broken",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "plackard_broken_slanted",
+     "name": "Plackard Broken Slanted",
+     "file": "plackard_broken_slanted.glb",
+     "size": 144064,
+     "thumb": "thumbnails/urban/plackard_broken_slanted.jpg",
+     "tags": [
+      "broken",
+      "fences",
+      "plackard",
+      "slanted",
+      "wall",
+      "walls"
+     ],
+     "tris": 172
+    },
+    {
+     "id": "plackard_broken_slanted_2",
+     "name": "Plackard Broken Slanted",
+     "file": "plackard_broken_slanted_2.glb",
+     "size": 194372,
+     "thumb": "thumbnails/urban/plackard_broken_slanted_2.jpg",
+     "tags": [
+      "broken",
+      "fences",
+      "plackard",
+      "slanted",
+      "wall"
+     ],
+     "tris": 172
+    },
+    {
+     "id": "plackard_closed",
+     "name": "Plackard Closed",
+     "file": "plackard_closed.glb",
+     "size": 143592,
+     "thumb": "thumbnails/urban/plackard_closed.jpg",
+     "tags": [
+      "closed",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 152
+    },
+    {
+     "id": "plackard_closed_2",
+     "name": "Plackard Closed",
+     "file": "plackard_closed_2.glb",
+     "size": 193900,
+     "thumb": "thumbnails/urban/plackard_closed_2.jpg",
+     "tags": [
+      "closed",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 152
+    },
+    {
+     "id": "plackard_closed_full",
+     "name": "Plackard Closed Full",
+     "file": "plackard_closed_full.glb",
+     "size": 141636,
+     "thumb": "thumbnails/urban/plackard_closed_full.jpg",
+     "tags": [
+      "closed",
+      "fences",
+      "full",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "plackard_closed_full_2",
+     "name": "Plackard Closed Full",
+     "file": "plackard_closed_full_2.glb",
+     "size": 191944,
+     "thumb": "thumbnails/urban/plackard_closed_full_2.jpg",
+     "tags": [
+      "closed",
+      "fences",
+      "full",
+      "plackard",
+      "wall"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "plackard_corner",
+     "name": "Plackard Corner",
+     "file": "plackard_corner.glb",
+     "size": 140792,
+     "thumb": "thumbnails/urban/plackard_corner.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "plackard_corner_2",
+     "name": "Plackard Corner",
+     "file": "plackard_corner_2.glb",
+     "size": 191100,
+     "thumb": "thumbnails/urban/plackard_corner_2.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "plackard_corner_closed",
+     "name": "Plackard Corner Closed",
+     "file": "plackard_corner_closed.glb",
+     "size": 137104,
+     "thumb": "thumbnails/urban/plackard_corner_closed.jpg",
+     "tags": [
+      "closed",
+      "corner",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_corner_closed_2",
+     "name": "Plackard Corner Closed",
+     "file": "plackard_corner_closed_2.glb",
+     "size": 187416,
+     "thumb": "thumbnails/urban/plackard_corner_closed_2.jpg",
+     "tags": [
+      "closed",
+      "corner",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_corner_closed_alt",
+     "name": "Plackard Corner Closed Alt",
+     "file": "plackard_corner_closed_alt.glb",
+     "size": 137108,
+     "thumb": "thumbnails/urban/plackard_corner_closed_alt.jpg",
+     "tags": [
+      "alt",
+      "closed",
+      "corner",
+      "fences",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_corner_closed_alt_2",
+     "name": "Plackard Corner Closed Alt",
+     "file": "plackard_corner_closed_alt_2.glb",
+     "size": 187420,
+     "thumb": "thumbnails/urban/plackard_corner_closed_alt_2.jpg",
+     "tags": [
+      "alt",
+      "closed",
+      "corner",
+      "fences",
+      "plackard",
+      "wall"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_corner_open",
+     "name": "Plackard Corner Open",
+     "file": "plackard_corner_open.glb",
+     "size": 138148,
+     "thumb": "thumbnails/urban/plackard_corner_open.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_2",
+     "name": "Plackard Corner Open",
+     "file": "plackard_corner_open_2.glb",
+     "size": 188456,
+     "thumb": "thumbnails/urban/plackard_corner_open_2.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_90",
+     "name": "Plackard Corner Open 90",
+     "file": "plackard_corner_open_90.glb",
+     "size": 138276,
+     "thumb": "thumbnails/urban/plackard_corner_open_90.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_90_2",
+     "name": "Plackard Corner Open 90",
+     "file": "plackard_corner_open_90_2.glb",
+     "size": 188588,
+     "thumb": "thumbnails/urban/plackard_corner_open_90_2.jpg",
+     "tags": [
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_90_alt",
+     "name": "Plackard Corner Open 90 Alt",
+     "file": "plackard_corner_open_90_alt.glb",
+     "size": 138280,
+     "thumb": "thumbnails/urban/plackard_corner_open_90_alt.jpg",
+     "tags": [
+      "alt",
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_90_alt_2",
+     "name": "Plackard Corner Open 90 Alt",
+     "file": "plackard_corner_open_90_alt_2.glb",
+     "size": 188592,
+     "thumb": "thumbnails/urban/plackard_corner_open_90_alt_2.jpg",
+     "tags": [
+      "alt",
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_alt",
+     "name": "Plackard Corner Open Alt",
+     "file": "plackard_corner_open_alt.glb",
+     "size": 138152,
+     "thumb": "thumbnails/urban/plackard_corner_open_alt.jpg",
+     "tags": [
+      "alt",
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_corner_open_alt_2",
+     "name": "Plackard Corner Open Alt",
+     "file": "plackard_corner_open_alt_2.glb",
+     "size": 188460,
+     "thumb": "thumbnails/urban/plackard_corner_open_alt_2.jpg",
+     "tags": [
+      "alt",
+      "corner",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_open",
+     "name": "Plackard Open",
+     "file": "plackard_open.glb",
+     "size": 144632,
+     "thumb": "thumbnails/urban/plackard_open.jpg",
+     "tags": [
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_open_2",
+     "name": "Plackard Open",
+     "file": "plackard_open_2.glb",
+     "size": 194940,
+     "thumb": "thumbnails/urban/plackard_open_2.jpg",
+     "tags": [
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_open_alt",
+     "name": "Plackard Open Alt",
+     "file": "plackard_open_alt.glb",
+     "size": 140664,
+     "thumb": "thumbnails/urban/plackard_open_alt.jpg",
+     "tags": [
+      "alt",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "plackard_open_alt2",
+     "name": "Plackard Open Alt2",
+     "file": "plackard_open_alt2.glb",
+     "size": 144636,
+     "thumb": "thumbnails/urban/plackard_open_alt2.jpg",
+     "tags": [
+      "alt2",
+      "fences",
+      "open",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_open_alt2_2",
+     "name": "Plackard Open Alt2",
+     "file": "plackard_open_alt2_2.glb",
+     "size": 194944,
+     "thumb": "thumbnails/urban/plackard_open_alt2_2.jpg",
+     "tags": [
+      "alt2",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_open_alt_2",
+     "name": "Plackard Open Alt",
+     "file": "plackard_open_alt_2.glb",
+     "size": 190976,
+     "thumb": "thumbnails/urban/plackard_open_alt_2.jpg",
+     "tags": [
+      "alt",
+      "fences",
+      "open",
+      "plackard",
+      "wall"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "plackard_open_patched",
+     "name": "Plackard Open Patched",
+     "file": "plackard_open_patched.glb",
+     "size": 144640,
+     "thumb": "thumbnails/urban/plackard_open_patched.jpg",
+     "tags": [
+      "fences",
+      "open",
+      "patched",
+      "plackard",
+      "wall",
+      "walls"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_open_patched_2",
+     "name": "Plackard Open Patched",
+     "file": "plackard_open_patched_2.glb",
+     "size": 194948,
+     "thumb": "thumbnails/urban/plackard_open_patched_2.jpg",
+     "tags": [
+      "fences",
+      "open",
+      "patched",
+      "plackard",
+      "wall"
+     ],
+     "tris": 176
+    },
+    {
+     "id": "plackard_slab_boken",
+     "name": "Plackard Slab Boken",
+     "file": "plackard_slab_boken.glb",
+     "size": 138724,
+     "thumb": "thumbnails/urban/plackard_slab_boken.jpg",
+     "tags": [
+      "boken",
+      "fences",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "plackard_slab_boken_2",
+     "name": "Plackard Slab Boken",
+     "file": "plackard_slab_boken_2.glb",
+     "size": 189032,
+     "thumb": "thumbnails/urban/plackard_slab_boken_2.jpg",
+     "tags": [
+      "boken",
+      "fences",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "plackard_slab_broken_alt",
+     "name": "Plackard Slab Broken Alt",
+     "file": "plackard_slab_broken_alt.glb",
+     "size": 138728,
+     "thumb": "thumbnails/urban/plackard_slab_broken_alt.jpg",
+     "tags": [
+      "alt",
+      "broken",
+      "fences",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "plackard_slab_broken_alt_2",
+     "name": "Plackard Slab Broken Alt",
+     "file": "plackard_slab_broken_alt_2.glb",
+     "size": 189036,
+     "thumb": "thumbnails/urban/plackard_slab_broken_alt_2.jpg",
+     "tags": [
+      "alt",
+      "broken",
+      "fences",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "plackard_slab_chipped",
+     "name": "Plackard Slab Chipped",
+     "file": "plackard_slab_chipped.glb",
+     "size": 137360,
+     "thumb": "thumbnails/urban/plackard_slab_chipped.jpg",
+     "tags": [
+      "chipped",
+      "fences",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "plackard_slab_chipped_2",
+     "name": "Plackard Slab Chipped",
+     "file": "plackard_slab_chipped_2.glb",
+     "size": 187668,
+     "thumb": "thumbnails/urban/plackard_slab_chipped_2.jpg",
+     "tags": [
+      "chipped",
+      "fences",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "plackard_slab_chipped_alt",
+     "name": "Plackard Slab Chipped Alt",
+     "file": "plackard_slab_chipped_alt.glb",
+     "size": 138520,
+     "thumb": "thumbnails/urban/plackard_slab_chipped_alt.jpg",
+     "tags": [
+      "alt",
+      "chipped",
+      "fences",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_slab_chipped_alt_2",
+     "name": "Plackard Slab Chipped Alt",
+     "file": "plackard_slab_chipped_alt_2.glb",
+     "size": 188828,
+     "thumb": "thumbnails/urban/plackard_slab_chipped_alt_2.jpg",
+     "tags": [
+      "alt",
+      "chipped",
+      "fences",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_slab_full",
+     "name": "Plackard Slab Full",
+     "file": "plackard_slab_full.glb",
+     "size": 137628,
+     "thumb": "thumbnails/urban/plackard_slab_full.jpg",
+     "tags": [
+      "fences",
+      "full",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_slab_full_2",
+     "name": "Plackard Slab Full",
+     "file": "plackard_slab_full_2.glb",
+     "size": 187940,
+     "thumb": "thumbnails/urban/plackard_slab_full_2.jpg",
+     "tags": [
+      "fences",
+      "full",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plackard_slab_half",
+     "name": "Plackard Slab Half",
+     "file": "plackard_slab_half.glb",
+     "size": 136784,
+     "thumb": "thumbnails/urban/plackard_slab_half.jpg",
+     "tags": [
+      "fences",
+      "half",
+      "plackard",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 24
+    },
+    {
+     "id": "plackard_slab_half_2",
+     "name": "Plackard Slab Half",
+     "file": "plackard_slab_half_2.glb",
+     "size": 187096,
+     "thumb": "thumbnails/urban/plackard_slab_half_2.jpg",
+     "tags": [
+      "fences",
+      "half",
+      "plackard",
+      "slab",
+      "wall"
+     ],
+     "tris": 24
+    },
+    {
+     "id": "plackard_slab_single",
+     "name": "Plackard Slab Single",
+     "file": "plackard_slab_single.glb",
+     "size": 135948,
+     "thumb": "thumbnails/urban/plackard_slab_single.jpg",
+     "tags": [
+      "fences",
+      "plackard",
+      "single",
+      "slab",
+      "wall",
+      "walls"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "plackard_slab_single_2",
+     "name": "Plackard Slab Single",
+     "file": "plackard_slab_single_2.glb",
+     "size": 186256,
+     "thumb": "thumbnails/urban/plackard_slab_single_2.jpg",
+     "tags": [
+      "fences",
+      "plackard",
+      "single",
+      "slab",
+      "wall"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "plackard_slab_wood_patched",
+     "name": "Plackard Slab Wood Patched",
+     "file": "plackard_slab_wood_patched.glb",
+     "size": 138520,
+     "thumb": "thumbnails/urban/plackard_slab_wood_patched.jpg",
+     "tags": [
+      "fences",
+      "patched",
+      "plackard",
+      "slab",
+      "wall",
+      "walls",
+      "wood"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plackard_slab_wood_patched_2",
+     "name": "Plackard Slab Wood Patched",
+     "file": "plackard_slab_wood_patched_2.glb",
+     "size": 188828,
+     "thumb": "thumbnails/urban/plackard_slab_wood_patched_2.jpg",
+     "tags": [
+      "fences",
+      "patched",
+      "plackard",
+      "slab",
+      "wall",
+      "wood"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plaster_wall",
+     "name": "Plaster Wall",
+     "file": "plaster_wall.glb",
+     "size": 49480,
+     "thumb": "thumbnails/urban/plaster_wall.jpg",
+     "tags": [
+      "fences",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "plaster_wall_column",
+     "name": "Plaster Wall Column",
+     "file": "plaster_wall_column.glb",
+     "size": 23256,
+     "thumb": "thumbnails/urban/plaster_wall_column.jpg",
+     "tags": [
+      "column",
+      "fences",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "plaster_wall_column_fancy",
+     "name": "Plaster Wall Column Fancy",
+     "file": "plaster_wall_column_fancy.glb",
+     "size": 26504,
+     "thumb": "thumbnails/urban/plaster_wall_column_fancy.jpg",
+     "tags": [
+      "column",
+      "fancy",
+      "fences",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 84
+    },
+    {
+     "id": "plaster_wall_fenced",
+     "name": "Plaster Wall Fenced",
+     "file": "plaster_wall_fenced.glb",
+     "size": 78744,
+     "thumb": "thumbnails/urban/plaster_wall_fenced.jpg",
+     "tags": [
+      "fenced",
+      "fences",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 408
+    },
+    {
+     "id": "plaster_wall_half",
+     "name": "Plaster Wall Half",
+     "file": "plaster_wall_half.glb",
+     "size": 48500,
+     "thumb": "thumbnails/urban/plaster_wall_half.jpg",
+     "tags": [
+      "fences",
+      "half",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "plaster_wall_half_fenced",
+     "name": "Plaster Wall Half Fenced",
+     "file": "plaster_wall_half_fenced.glb",
+     "size": 68068,
+     "thumb": "thumbnails/urban/plaster_wall_half_fenced.jpg",
+     "tags": [
+      "fenced",
+      "fences",
+      "half",
+      "plaster",
+      "wall",
+      "walls"
+     ],
+     "tris": 252
+    },
+    {
+     "id": "plastic_gate_left",
+     "name": "Plastic Gate Left",
+     "file": "plastic_gate_left.glb",
+     "size": 32956,
+     "thumb": "thumbnails/urban/plastic_gate_left.jpg",
+     "tags": [
+      "fences",
+      "gate",
+      "left",
+      "plaster",
+      "plastic",
+      "wall",
+      "walls"
+     ],
+     "tris": 476
+    },
+    {
+     "id": "plastic_gate_right",
+     "name": "Plastic Gate Right",
+     "file": "plastic_gate_right.glb",
+     "size": 35904,
+     "thumb": "thumbnails/urban/plastic_gate_right.jpg",
+     "tags": [
+      "fences",
+      "gate",
+      "plaster",
+      "plastic",
+      "right",
+      "wall",
+      "walls"
+     ],
+     "tris": 528
+    },
+    {
+     "id": "retro_bollard",
+     "name": "Retro Bollard",
+     "file": "retro_bollard.glb",
+     "size": 76208,
+     "thumb": "thumbnails/urban/retro_bollard.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "retro"
+     ],
+     "tris": 164
+    },
+    {
+     "id": "retro_bollard_detailed",
+     "name": "Retro Bollard Detailed",
+     "file": "retro_bollard_detailed.glb",
+     "size": 80420,
+     "thumb": "thumbnails/urban/retro_bollard_detailed.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "detailed",
+      "retro"
+     ],
+     "tris": 224
+    },
+    {
+     "id": "road_1_bridge_ramp",
+     "name": "Road 1 Bridge Ramp",
+     "file": "road_1_bridge_ramp.glb",
+     "size": 122676,
+     "thumb": "thumbnails/urban/road_1_bridge_ramp.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 196
+    },
+    {
+     "id": "road_1_bridge_ramp_no_sides",
+     "name": "Road 1 Bridge Ramp No Sides",
+     "file": "road_1_bridge_ramp_no_sides.glb",
+     "size": 112372,
+     "thumb": "thumbnails/urban/road_1_bridge_ramp_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_1_bridge_segment",
+     "name": "Road 1 Bridge Segment",
+     "file": "road_1_bridge_segment.glb",
+     "size": 115092,
+     "thumb": "thumbnails/urban/road_1_bridge_segment.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "type"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "road_1_bridge_segment_no_sides",
+     "name": "Road 1 Bridge Segment No Sides",
+     "file": "road_1_bridge_segment_no_sides.glb",
+     "size": 107168,
+     "thumb": "thumbnails/urban/road_1_bridge_segment_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "sides",
+      "type"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "road_1_corner",
+     "name": "Road 1 Corner",
+     "file": "road_1_corner.glb",
+     "size": 79340,
+     "thumb": "thumbnails/urban/road_1_corner.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_1_corner_no_sides",
+     "name": "Road 1 Corner No Sides",
+     "file": "road_1_corner_no_sides.glb",
+     "size": 68756,
+     "thumb": "thumbnails/urban/road_1_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_1_corner_small_sides",
+     "name": "Road 1 Corner Small Sides",
+     "file": "road_1_corner_small_sides.glb",
+     "size": 79528,
+     "thumb": "thumbnails/urban/road_1_corner_small_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_1_junction",
+     "name": "Road 1 Junction",
+     "file": "road_1_junction.glb",
+     "size": 80020,
+     "thumb": "thumbnails/urban/road_1_junction.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_1_junction_no_sides",
+     "name": "Road 1 Junction No Sides",
+     "file": "road_1_junction_no_sides.glb",
+     "size": 68952,
+     "thumb": "thumbnails/urban/road_1_junction_no_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_1_junction_small_sides",
+     "name": "Road 1 Junction Small Sides",
+     "file": "road_1_junction_small_sides.glb",
+     "size": 80324,
+     "thumb": "thumbnails/urban/road_1_junction_small_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_1_long_corner",
+     "name": "Road 1 Long Corner",
+     "file": "road_1_long_corner.glb",
+     "size": 83148,
+     "thumb": "thumbnails/urban/road_1_long_corner.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "road_1_long_corner_no_sides",
+     "name": "Road 1 Long Corner No Sides",
+     "file": "road_1_long_corner_no_sides.glb",
+     "size": 70824,
+     "thumb": "thumbnails/urban/road_1_long_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_1_sheer",
+     "name": "Road 1 Sheer",
+     "file": "road_1_sheer.glb",
+     "size": 80108,
+     "thumb": "thumbnails/urban/road_1_sheer.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_1_sheer_no_sides",
+     "name": "Road 1 Sheer No Sides",
+     "file": "road_1_sheer_no_sides.glb",
+     "size": 69780,
+     "thumb": "thumbnails/urban/road_1_sheer_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "sides",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_1_slope",
+     "name": "Road 1 Slope",
+     "file": "road_1_slope.glb",
+     "size": 79348,
+     "thumb": "thumbnails/urban/road_1_slope.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "slope",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_1_slope_no_sides",
+     "name": "Road 1 Slope No Sides",
+     "file": "road_1_slope_no_sides.glb",
+     "size": 69504,
+     "thumb": "thumbnails/urban/road_1_slope_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "slope",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_1_small_bridge",
+     "name": "Road 1 Small Bridge",
+     "file": "road_1_small_bridge.glb",
+     "size": 132620,
+     "thumb": "thumbnails/urban/road_1_small_bridge.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "small",
+      "type"
+     ],
+     "tris": 400
+    },
+    {
+     "id": "road_1_small_bridge_no_sides",
+     "name": "Road 1 Small Bridge No Sides",
+     "file": "road_1_small_bridge_no_sides.glb",
+     "size": 120672,
+     "thumb": "thumbnails/urban/road_1_small_bridge_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 276
+    },
+    {
+     "id": "road_1_straight",
+     "name": "Road 1 Straight",
+     "file": "road_1_straight.glb",
+     "size": 77028,
+     "thumb": "thumbnails/urban/road_1_straight.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_1_straight_no_sides",
+     "name": "Road 1 Straight No Sides",
+     "file": "road_1_straight_no_sides.glb",
+     "size": 68516,
+     "thumb": "thumbnails/urban/road_1_straight_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "straight",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_1_straight_small_sides",
+     "name": "Road 1 Straight Small Sides",
+     "file": "road_1_straight_small_sides.glb",
+     "size": 76992,
+     "thumb": "thumbnails/urban/road_1_straight_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_1_tjunction",
+     "name": "Road 1 Tjunction",
+     "file": "road_1_Tjunction.glb",
+     "size": 79780,
+     "thumb": "thumbnails/urban/road_1_tjunction.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_1_tjunction_no_sides",
+     "name": "Road 1 Tjunction No Sides",
+     "file": "road_1_Tjunction_no_sides.glb",
+     "size": 68776,
+     "thumb": "thumbnails/urban/road_1_tjunction_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "tjunction",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_1_tjunction_small_sides",
+     "name": "Road 1 Tjunction Small Sides",
+     "file": "road_1_Tjunction_small_sides.glb",
+     "size": 79856,
+     "thumb": "thumbnails/urban/road_1_tjunction_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_2_bridge_ramp",
+     "name": "Road 2 Bridge Ramp",
+     "file": "road_2_bridge_ramp.glb",
+     "size": 75504,
+     "thumb": "thumbnails/urban/road_2_bridge_ramp.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 196
+    },
+    {
+     "id": "road_2_bridge_ramp_no_sides",
+     "name": "Road 2 Bridge Ramp No Sides",
+     "file": "road_2_bridge_ramp_no_sides.glb",
+     "size": 65204,
+     "thumb": "thumbnails/urban/road_2_bridge_ramp_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_2_bridge_segment",
+     "name": "Road 2 Bridge Segment",
+     "file": "road_2_bridge_segment.glb",
+     "size": 67920,
+     "thumb": "thumbnails/urban/road_2_bridge_segment.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "type"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "road_2_bridge_segment_no_sides",
+     "name": "Road 2 Bridge Segment No Sides",
+     "file": "road_2_bridge_segment_no_sides.glb",
+     "size": 60000,
+     "thumb": "thumbnails/urban/road_2_bridge_segment_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "sides",
+      "type"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "road_2_corner",
+     "name": "Road 2 Corner",
+     "file": "road_2_corner.glb",
+     "size": 32176,
+     "thumb": "thumbnails/urban/road_2_corner.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_2_corner_no_sides",
+     "name": "Road 2 Corner No Sides",
+     "file": "road_2_corner_no_sides.glb",
+     "size": 21592,
+     "thumb": "thumbnails/urban/road_2_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_2_corner_small_sides",
+     "name": "Road 2 Corner Small Sides",
+     "file": "road_2_corner_small_sides.glb",
+     "size": 32332,
+     "thumb": "thumbnails/urban/road_2_corner_small_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_2_junction",
+     "name": "Road 2 Junction",
+     "file": "road_2_junction.glb",
+     "size": 33228,
+     "thumb": "thumbnails/urban/road_2_junction.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_2_junction_no_sides",
+     "name": "Road 2 Junction No Sides",
+     "file": "road_2_junction_no_sides.glb",
+     "size": 21788,
+     "thumb": "thumbnails/urban/road_2_junction_no_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_2_junction_small_sides",
+     "name": "Road 2 Junction Small Sides",
+     "file": "road_2_junction_small_sides.glb",
+     "size": 33512,
+     "thumb": "thumbnails/urban/road_2_junction_small_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_2_long_corner",
+     "name": "Road 2 Long Corner",
+     "file": "road_2_long_corner.glb",
+     "size": 35980,
+     "thumb": "thumbnails/urban/road_2_long_corner.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "road_2_long_corner_no_sides",
+     "name": "Road 2 Long Corner No Sides",
+     "file": "road_2_long_corner_no_sides.glb",
+     "size": 23656,
+     "thumb": "thumbnails/urban/road_2_long_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_2_sheer",
+     "name": "Road 2 Sheer",
+     "file": "road_2_sheer.glb",
+     "size": 32944,
+     "thumb": "thumbnails/urban/road_2_sheer.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_2_sheer_no_sides",
+     "name": "Road 2 Sheer No Sides",
+     "file": "road_2_sheer_no_sides.glb",
+     "size": 22612,
+     "thumb": "thumbnails/urban/road_2_sheer_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "sides",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_2_slope",
+     "name": "Road 2 Slope",
+     "file": "road_2_slope.glb",
+     "size": 32184,
+     "thumb": "thumbnails/urban/road_2_slope.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "slope",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_2_slope_no_sides",
+     "name": "Road 2 Slope No Sides",
+     "file": "road_2_slope_no_sides.glb",
+     "size": 22336,
+     "thumb": "thumbnails/urban/road_2_slope_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "slope",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_2_small_bridge",
+     "name": "Road 2 Small Bridge",
+     "file": "road_2_small_bridge.glb",
+     "size": 85448,
+     "thumb": "thumbnails/urban/road_2_small_bridge.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "small",
+      "type"
+     ],
+     "tris": 400
+    },
+    {
+     "id": "road_2_small_bridge_no_sides",
+     "name": "Road 2 Small Bridge No Sides",
+     "file": "road_2_small_bridge_no_sides.glb",
+     "size": 73508,
+     "thumb": "thumbnails/urban/road_2_small_bridge_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 276
+    },
+    {
+     "id": "road_2_straight",
+     "name": "Road 2 Straight",
+     "file": "road_2_straight.glb",
+     "size": 29812,
+     "thumb": "thumbnails/urban/road_2_straight.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_2_straight_no_sides",
+     "name": "Road 2 Straight No Sides",
+     "file": "road_2_straight_no_sides.glb",
+     "size": 21348,
+     "thumb": "thumbnails/urban/road_2_straight_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "straight",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_2_straight_small_sides",
+     "name": "Road 2 Straight Small Sides",
+     "file": "road_2_straight_small_sides.glb",
+     "size": 29824,
+     "thumb": "thumbnails/urban/road_2_straight_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_2_tjunction",
+     "name": "Road 2 Tjunction",
+     "file": "road_2_Tjunction.glb",
+     "size": 32552,
+     "thumb": "thumbnails/urban/road_2_tjunction.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_2_tjunction_no_sides",
+     "name": "Road 2 Tjunction No Sides",
+     "file": "road_2_Tjunction_no_sides.glb",
+     "size": 21612,
+     "thumb": "thumbnails/urban/road_2_tjunction_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "tjunction",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_2_tjunction_small_sides",
+     "name": "Road 2 Tjunction Small Sides",
+     "file": "road_2_Tjunction_small_sides.glb",
+     "size": 32852,
+     "thumb": "thumbnails/urban/road_2_tjunction_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_3_bridge_ramp",
+     "name": "Road 3 Bridge Ramp",
+     "file": "road_3_bridge_ramp.glb",
+     "size": 79348,
+     "thumb": "thumbnails/urban/road_3_bridge_ramp.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 196
+    },
+    {
+     "id": "road_3_bridge_ramp_no_sides",
+     "name": "Road 3 Bridge Ramp No Sides",
+     "file": "road_3_bridge_ramp_no_sides.glb",
+     "size": 69048,
+     "thumb": "thumbnails/urban/road_3_bridge_ramp_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_3_bridge_segment",
+     "name": "Road 3 Bridge Segment",
+     "file": "road_3_bridge_segment.glb",
+     "size": 71764,
+     "thumb": "thumbnails/urban/road_3_bridge_segment.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "type"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "road_3_bridge_segment_no_sides",
+     "name": "Road 3 Bridge Segment No Sides",
+     "file": "road_3_bridge_segment_no_sides.glb",
+     "size": 63844,
+     "thumb": "thumbnails/urban/road_3_bridge_segment_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "sides",
+      "type"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "road_3_corner",
+     "name": "Road 3 Corner",
+     "file": "road_3_corner.glb",
+     "size": 36020,
+     "thumb": "thumbnails/urban/road_3_corner.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_3_corner_no_sides",
+     "name": "Road 3 Corner No Sides",
+     "file": "road_3_corner_no_sides.glb",
+     "size": 25436,
+     "thumb": "thumbnails/urban/road_3_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_3_corner_small_sides",
+     "name": "Road 3 Corner Small Sides",
+     "file": "road_3_corner_small_sides.glb",
+     "size": 36176,
+     "thumb": "thumbnails/urban/road_3_corner_small_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_3_junction",
+     "name": "Road 3 Junction",
+     "file": "road_3_junction.glb",
+     "size": 36896,
+     "thumb": "thumbnails/urban/road_3_junction.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_3_junction_no_sides",
+     "name": "Road 3 Junction No Sides",
+     "file": "road_3_junction_no_sides.glb",
+     "size": 25632,
+     "thumb": "thumbnails/urban/road_3_junction_no_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_3_junction_small_sides",
+     "name": "Road 3 Junction Small Sides",
+     "file": "road_3_junction_small_sides.glb",
+     "size": 37100,
+     "thumb": "thumbnails/urban/road_3_junction_small_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_3_long_corner",
+     "name": "Road 3 Long Corner",
+     "file": "road_3_long_corner.glb",
+     "size": 39824,
+     "thumb": "thumbnails/urban/road_3_long_corner.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "road_3_long_corner_no_sides",
+     "name": "Road 3 Long Corner No Sides",
+     "file": "road_3_long_corner_no_sides.glb",
+     "size": 27500,
+     "thumb": "thumbnails/urban/road_3_long_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_3_sheer",
+     "name": "Road 3 Sheer",
+     "file": "road_3_sheer.glb",
+     "size": 36788,
+     "thumb": "thumbnails/urban/road_3_sheer.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_3_sheer_no_sides",
+     "name": "Road 3 Sheer No Sides",
+     "file": "road_3_sheer_no_sides.glb",
+     "size": 26456,
+     "thumb": "thumbnails/urban/road_3_sheer_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "sides",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_3_slope",
+     "name": "Road 3 Slope",
+     "file": "road_3_slope.glb",
+     "size": 36028,
+     "thumb": "thumbnails/urban/road_3_slope.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "slope",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_3_slope_no_sides",
+     "name": "Road 3 Slope No Sides",
+     "file": "road_3_slope_no_sides.glb",
+     "size": 26180,
+     "thumb": "thumbnails/urban/road_3_slope_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "slope",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_3_small_bridge",
+     "name": "Road 3 Small Bridge",
+     "file": "road_3_small_bridge.glb",
+     "size": 89292,
+     "thumb": "thumbnails/urban/road_3_small_bridge.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "small",
+      "type"
+     ],
+     "tris": 400
+    },
+    {
+     "id": "road_3_small_bridge_no_sides",
+     "name": "Road 3 Small Bridge No Sides",
+     "file": "road_3_small_bridge_no_sides.glb",
+     "size": 77352,
+     "thumb": "thumbnails/urban/road_3_small_bridge_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 276
+    },
+    {
+     "id": "road_3_straight",
+     "name": "Road 3 Straight",
+     "file": "road_3_straight.glb",
+     "size": 33656,
+     "thumb": "thumbnails/urban/road_3_straight.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_3_straight_no_sides",
+     "name": "Road 3 Straight No Sides",
+     "file": "road_3_straight_no_sides.glb",
+     "size": 25192,
+     "thumb": "thumbnails/urban/road_3_straight_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "straight",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_3_straight_small_sides",
+     "name": "Road 3 Straight Small Sides",
+     "file": "road_3_straight_small_sides.glb",
+     "size": 33668,
+     "thumb": "thumbnails/urban/road_3_straight_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_3_tjunction",
+     "name": "Road 3 Tjunction",
+     "file": "road_3_Tjunction.glb",
+     "size": 36524,
+     "thumb": "thumbnails/urban/road_3_tjunction.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_3_tjunction_no_sides",
+     "name": "Road 3 Tjunction No Sides",
+     "file": "road_3_Tjunction_no_sides.glb",
+     "size": 25456,
+     "thumb": "thumbnails/urban/road_3_tjunction_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "tjunction",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_3_tjunction_small_sides",
+     "name": "Road 3 Tjunction Small Sides",
+     "file": "road_3_Tjunction_small_sides.glb",
+     "size": 36760,
+     "thumb": "thumbnails/urban/road_3_tjunction_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_4_bridge_ramp",
+     "name": "Road 4 Bridge Ramp",
+     "file": "road_4_bridge_ramp.glb",
+     "size": 78100,
+     "thumb": "thumbnails/urban/road_4_bridge_ramp.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 196
+    },
+    {
+     "id": "road_4_bridge_ramp_no_sides",
+     "name": "Road 4 Bridge Ramp No Sides",
+     "file": "road_4_bridge_ramp_no_sides.glb",
+     "size": 67800,
+     "thumb": "thumbnails/urban/road_4_bridge_ramp_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "ramp",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_4_bridge_segment",
+     "name": "Road 4 Bridge Segment",
+     "file": "road_4_bridge_segment.glb",
+     "size": 70516,
+     "thumb": "thumbnails/urban/road_4_bridge_segment.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "type"
+     ],
+     "tris": 68
+    },
+    {
+     "id": "road_4_bridge_segment_no_sides",
+     "name": "Road 4 Bridge Segment No Sides",
+     "file": "road_4_bridge_segment_no_sides.glb",
+     "size": 62596,
+     "thumb": "thumbnails/urban/road_4_bridge_segment_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "segment",
+      "sides",
+      "type"
+     ],
+     "tris": 40
+    },
+    {
+     "id": "road_4_corner",
+     "name": "Road 4 Corner",
+     "file": "road_4_corner.glb",
+     "size": 34756,
+     "thumb": "thumbnails/urban/road_4_corner.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_4_corner_no_sides",
+     "name": "Road 4 Corner No Sides",
+     "file": "road_4_corner_no_sides.glb",
+     "size": 24188,
+     "thumb": "thumbnails/urban/road_4_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_4_corner_small_sides",
+     "name": "Road 4 Corner Small Sides",
+     "file": "road_4_corner_small_sides.glb",
+     "size": 34928,
+     "thumb": "thumbnails/urban/road_4_corner_small_sides.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 136
+    },
+    {
+     "id": "road_4_junction",
+     "name": "Road 4 Junction",
+     "file": "road_4_junction.glb",
+     "size": 35616,
+     "thumb": "thumbnails/urban/road_4_junction.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_4_junction_no_sides",
+     "name": "Road 4 Junction No Sides",
+     "file": "road_4_junction_no_sides.glb",
+     "size": 24384,
+     "thumb": "thumbnails/urban/road_4_junction_no_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_4_junction_small_sides",
+     "name": "Road 4 Junction Small Sides",
+     "file": "road_4_junction_small_sides.glb",
+     "size": 35884,
+     "thumb": "thumbnails/urban/road_4_junction_small_sides.jpg",
+     "tags": [
+      "junction",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 128
+    },
+    {
+     "id": "road_4_long_corner",
+     "name": "Road 4 Long Corner",
+     "file": "road_4_long_corner.glb",
+     "size": 38576,
+     "thumb": "thumbnails/urban/road_4_long_corner.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "type"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "road_4_long_corner_no_sides",
+     "name": "Road 4 Long Corner No Sides",
+     "file": "road_4_long_corner_no_sides.glb",
+     "size": 26252,
+     "thumb": "thumbnails/urban/road_4_long_corner_no_sides.jpg",
+     "tags": [
+      "corner",
+      "long",
+      "road",
+      "roads",
+      "sides",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_4_sheer",
+     "name": "Road 4 Sheer",
+     "file": "road_4_sheer.glb",
+     "size": 35540,
+     "thumb": "thumbnails/urban/road_4_sheer.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_4_sheer_no_sides",
+     "name": "Road 4 Sheer No Sides",
+     "file": "road_4_sheer_no_sides.glb",
+     "size": 25208,
+     "thumb": "thumbnails/urban/road_4_sheer_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sheer",
+      "sides",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_4_slope",
+     "name": "Road 4 Slope",
+     "file": "road_4_slope.glb",
+     "size": 34780,
+     "thumb": "thumbnails/urban/road_4_slope.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "slope",
+      "type"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "road_4_slope_no_sides",
+     "name": "Road 4 Slope No Sides",
+     "file": "road_4_slope_no_sides.glb",
+     "size": 24932,
+     "thumb": "thumbnails/urban/road_4_slope_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "slope",
+      "type"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "road_4_small_bridge",
+     "name": "Road 4 Small Bridge",
+     "file": "road_4_small_bridge.glb",
+     "size": 88172,
+     "thumb": "thumbnails/urban/road_4_small_bridge.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "small",
+      "type"
+     ],
+     "tris": 400
+    },
+    {
+     "id": "road_4_small_bridge_no_sides",
+     "name": "Road 4 Small Bridge No Sides",
+     "file": "road_4_small_bridge_no_sides.glb",
+     "size": 76104,
+     "thumb": "thumbnails/urban/road_4_small_bridge_no_sides.jpg",
+     "tags": [
+      "bridge",
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "type"
+     ],
+     "tris": 276
+    },
+    {
+     "id": "road_4_straight",
+     "name": "Road 4 Straight",
+     "file": "road_4_straight.glb",
+     "size": 32380,
+     "thumb": "thumbnails/urban/road_4_straight.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_4_straight_no_sides",
+     "name": "Road 4 Straight No Sides",
+     "file": "road_4_straight_no_sides.glb",
+     "size": 23944,
+     "thumb": "thumbnails/urban/road_4_straight_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "straight",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_4_straight_small_sides",
+     "name": "Road 4 Straight Small Sides",
+     "file": "road_4_straight_small_sides.glb",
+     "size": 32420,
+     "thumb": "thumbnails/urban/road_4_straight_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "straight",
+      "type"
+     ],
+     "tris": 80
+    },
+    {
+     "id": "road_4_tjunction",
+     "name": "Road 4 Tjunction",
+     "file": "road_4_Tjunction.glb",
+     "size": 35252,
+     "thumb": "thumbnails/urban/road_4_tjunction.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_4_tjunction_no_sides",
+     "name": "Road 4 Tjunction No Sides",
+     "file": "road_4_Tjunction_no_sides.glb",
+     "size": 24208,
+     "thumb": "thumbnails/urban/road_4_tjunction_no_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "tjunction",
+      "type"
+     ],
+     "tris": 32
+    },
+    {
+     "id": "road_4_tjunction_small_sides",
+     "name": "Road 4 Tjunction Small Sides",
+     "file": "road_4_Tjunction_small_sides.glb",
+     "size": 35448,
+     "thumb": "thumbnails/urban/road_4_tjunction_small_sides.jpg",
+     "tags": [
+      "road",
+      "roads",
+      "sides",
+      "small",
+      "tjunction",
+      "type"
+     ],
+     "tris": 132
+    },
+    {
+     "id": "road_side_corner",
+     "name": "Road Side Corner",
+     "file": "road_side_corner.glb",
+     "size": 7164,
+     "thumb": "thumbnails/urban/road_side_corner.jpg",
+     "tags": [
+      "corner",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 8
+    },
+    {
+     "id": "road_side_full",
+     "name": "Road Side Full",
+     "file": "road_side_full.glb",
+     "size": 7300,
+     "thumb": "thumbnails/urban/road_side_full.jpg",
+     "tags": [
+      "full",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "road_side_full_25",
+     "name": "Road Side Full 25",
+     "file": "road_side_full_25.glb",
+     "size": 7324,
+     "thumb": "thumbnails/urban/road_side_full_25.jpg",
+     "tags": [
+      "full",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "road_side_full_45",
+     "name": "Road Side Full 45",
+     "file": "road_side_full_45.glb",
+     "size": 7308,
+     "thumb": "thumbnails/urban/road_side_full_45.jpg",
+     "tags": [
+      "full",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "road_side_half",
+     "name": "Road Side Half",
+     "file": "road_side_half.glb",
+     "size": 7300,
+     "thumb": "thumbnails/urban/road_side_half.jpg",
+     "tags": [
+      "half",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "road_side_quarter",
+     "name": "Road Side Quarter",
+     "file": "road_side_quarter.glb",
+     "size": 7380,
+     "thumb": "thumbnails/urban/road_side_quarter.jpg",
+     "tags": [
+      "quarter",
+      "road",
+      "roads",
+      "side",
+      "sides"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "security_bollard",
+     "name": "Security Bollard",
+     "file": "security_bollard.glb",
+     "size": 69368,
+     "thumb": "thumbnails/urban/security_bollard.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "security"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "simple_bollard",
+     "name": "Simple Bollard",
+     "file": "simple_bollard.glb",
+     "size": 69472,
+     "thumb": "thumbnails/urban/simple_bollard.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "simple"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "simple_bollard_short",
+     "name": "Simple Bollard Short",
+     "file": "simple_bollard_short.glb",
+     "size": 69460,
+     "thumb": "thumbnails/urban/simple_bollard_short.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "short",
+      "simple"
+     ],
+     "tris": 56
+    },
+    {
+     "id": "square_bollard",
+     "name": "Square Bollard",
+     "file": "square_bollard.glb",
+     "size": 73496,
+     "thumb": "thumbnails/urban/square_bollard.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "square"
+     ],
+     "tris": 122
+    },
+    {
+     "id": "square_bollard_reflectors",
+     "name": "Square Bollard Reflectors",
+     "file": "square_bollard_reflectors.glb",
+     "size": 74020,
+     "thumb": "thumbnails/urban/square_bollard_reflectors.jpg",
+     "tags": [
+      "barriers",
+      "bollard",
+      "bollards",
+      "cones",
+      "reflectors",
+      "square"
+     ],
+     "tris": 122
+    },
+    {
+     "id": "street_light",
+     "name": "Street Light",
+     "file": "street_light.glb",
+     "size": 59364,
+     "thumb": "thumbnails/urban/street_light.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "street",
+      "traffic"
+     ],
+     "tris": 346
+    },
+    {
+     "id": "street_light_clean",
+     "name": "Street Light Clean",
+     "file": "street_light_clean.glb",
+     "size": 58768,
+     "thumb": "thumbnails/urban/street_light_clean.jpg",
+     "tags": [
+      "clean",
+      "light",
+      "lights",
+      "street",
+      "traffic"
+     ],
+     "tris": 346
+    },
+    {
+     "id": "stuco_foot_wall",
+     "name": "Stuco Foot Wall",
+     "file": "stuco_foot_wall.glb",
+     "size": 225760,
+     "thumb": "thumbnails/urban/stuco_foot_wall.jpg",
+     "tags": [
+      "building",
+      "foot",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "stuco_wall",
+     "name": "Stuco Wall",
+     "file": "stuco_wall.glb",
+     "size": 225756,
+     "thumb": "thumbnails/urban/stuco_wall.jpg",
+     "tags": [
+      "building",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "stuco_wall_corner",
+     "name": "Stuco Wall Corner",
+     "file": "stuco_wall_corner.glb",
+     "size": 225928,
+     "thumb": "thumbnails/urban/stuco_wall_corner.jpg",
+     "tags": [
+      "building",
+      "corner",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 4
+    },
+    {
+     "id": "stuco_wall_door",
+     "name": "Stuco Wall Door",
+     "file": "stuco_wall_door.glb",
+     "size": 226080,
+     "thumb": "thumbnails/urban/stuco_wall_door.jpg",
+     "tags": [
+      "building",
+      "door",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "stuco_wall_door_frame",
+     "name": "Stuco Wall Door Frame",
+     "file": "stuco_wall_door_frame.glb",
+     "size": 226040,
+     "thumb": "thumbnails/urban/stuco_wall_door_frame.jpg",
+     "tags": [
+      "building",
+      "door",
+      "frame",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "stuco_wall_door_indent",
+     "name": "Stuco Wall Door Indent",
+     "file": "stuco_wall_door_indent.glb",
+     "size": 226704,
+     "thumb": "thumbnails/urban/stuco_wall_door_indent.jpg",
+     "tags": [
+      "building",
+      "door",
+      "indent",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "stuco_wall_metal_door",
+     "name": "Stuco Wall Metal Door",
+     "file": "stuco_wall_metal_door.glb",
+     "size": 226152,
+     "thumb": "thumbnails/urban/stuco_wall_metal_door.jpg",
+     "tags": [
+      "building",
+      "door",
+      "metal",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "stuco_wall_metal_door_indent",
+     "name": "Stuco Wall Metal Door Indent",
+     "file": "stuco_wall_metal_door_indent.glb",
+     "size": 226740,
+     "thumb": "thumbnails/urban/stuco_wall_metal_door_indent.jpg",
+     "tags": [
+      "building",
+      "door",
+      "indent",
+      "metal",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "stuco_wall_old_door",
+     "name": "Stuco Wall Old Door",
+     "file": "stuco_wall_old_door.glb",
+     "size": 226216,
+     "thumb": "thumbnails/urban/stuco_wall_old_door.jpg",
+     "tags": [
+      "building",
+      "door",
+      "old",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 10
+    },
+    {
+     "id": "stuco_wall_old_door_indent",
+     "name": "Stuco Wall Old Door Indent",
+     "file": "stuco_wall_old_door_indent.glb",
+     "size": 226804,
+     "thumb": "thumbnails/urban/stuco_wall_old_door_indent.jpg",
+     "tags": [
+      "building",
+      "door",
+      "indent",
+      "old",
+      "parts",
+      "stuco",
+      "wall"
+     ],
+     "tris": 18
+    },
+    {
+     "id": "stuco_wall_small",
+     "name": "Stuco Wall Small",
+     "file": "stuco_wall_small.glb",
+     "size": 225764,
+     "thumb": "thumbnails/urban/stuco_wall_small.jpg",
+     "tags": [
+      "building",
+      "parts",
+      "small",
+      "stuco",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "stuco_wall_thin",
+     "name": "Stuco Wall Thin",
+     "file": "stuco_wall_thin.glb",
+     "size": 225760,
+     "thumb": "thumbnails/urban/stuco_wall_thin.jpg",
+     "tags": [
+      "building",
+      "parts",
+      "stuco",
+      "thin",
+      "wall"
+     ],
+     "tris": 2
+    },
+    {
+     "id": "stuco_wall_window_1",
+     "name": "Stuco Wall Window 1",
+     "file": "stuco_wall_window_1.glb",
+     "size": 226284,
+     "thumb": "thumbnails/urban/stuco_wall_window_1.jpg",
+     "tags": [
+      "building",
+      "parts",
+      "stuco",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "stuco_wall_window_2",
+     "name": "Stuco Wall Window 2",
+     "file": "stuco_wall_window_2.glb",
+     "size": 226284,
+     "thumb": "thumbnails/urban/stuco_wall_window_2.jpg",
+     "tags": [
+      "building",
+      "parts",
+      "stuco",
+      "wall",
+      "window"
+     ],
+     "tris": 16
+    },
+    {
+     "id": "traffic_cone_round",
+     "name": "Traffic Cone Round",
+     "file": "Traffic_cone_round.glb",
+     "size": 38908,
+     "thumb": "thumbnails/urban/traffic_cone_round.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "round",
+      "traffic"
+     ],
+     "tris": 84
+    },
+    {
+     "id": "traffic_cone_round_rubber",
+     "name": "Traffic Cone Round Rubber",
+     "file": "Traffic_cone_round_rubber.glb",
+     "size": 38592,
+     "thumb": "thumbnails/urban/traffic_cone_round_rubber.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "round",
+      "rubber",
+      "traffic"
+     ],
+     "tris": 84
+    },
+    {
+     "id": "traffic_cone_square",
+     "name": "Traffic Cone Square",
+     "file": "Traffic_cone_square.glb",
+     "size": 37100,
+     "thumb": "thumbnails/urban/traffic_cone_square.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "square",
+      "traffic"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "traffic_cone_square_rubber",
+     "name": "Traffic Cone Square Rubber",
+     "file": "Traffic_cone_square_rubber.glb",
+     "size": 37104,
+     "thumb": "thumbnails/urban/traffic_cone_square_rubber.jpg",
+     "tags": [
+      "barriers",
+      "cone",
+      "cones",
+      "rubber",
+      "square",
+      "traffic"
+     ],
+     "tris": 60
+    },
+    {
+     "id": "traffic_ligh_pole_l",
+     "name": "Traffic Ligh Pole L",
+     "file": "traffic_ligh_pole_L.glb",
+     "size": 30820,
+     "thumb": "thumbnails/urban/traffic_ligh_pole_l.jpg",
+     "tags": [
+      "ligh",
+      "lights",
+      "pole",
+      "traffic"
+     ],
+     "tris": 280
+    },
+    {
+     "id": "traffic_light",
+     "name": "Traffic Light",
+     "file": "traffic_light.glb",
+     "size": 49084,
+     "thumb": "thumbnails/urban/traffic_light.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "traffic"
+     ],
+     "tris": 516
+    },
+    {
+     "id": "traffic_light_l",
+     "name": "Traffic Light L",
+     "file": "traffic_light_L.glb",
+     "size": 54376,
+     "thumb": "thumbnails/urban/traffic_light_l.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "traffic"
+     ],
+     "tris": 608
+    },
+    {
+     "id": "traffic_light_pole",
+     "name": "Traffic Light Pole",
+     "file": "traffic_light_pole.glb",
+     "size": 24064,
+     "thumb": "thumbnails/urban/traffic_light_pole.jpg",
+     "tags": [
+      "light",
+      "lights",
+      "pole",
+      "traffic"
+     ],
+     "tris": 160
+    },
+    {
+     "id": "trash_can",
+     "name": "Trash Can",
+     "file": "trash_can.glb",
+     "size": 65268,
+     "thumb": "thumbnails/urban/trash_can.jpg",
+     "tags": [
+      "can",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_alt1",
+     "name": "Trash Can Alt1",
+     "file": "trash_can_alt1.glb",
+     "size": 65272,
+     "thumb": "thumbnails/urban/trash_can_alt1.jpg",
+     "tags": [
+      "alt1",
+      "can",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_alt1_full",
+     "name": "Trash Can Alt1 Full",
+     "file": "trash_can_alt1_full.glb",
+     "size": 109620,
+     "thumb": "thumbnails/urban/trash_can_alt1_full.jpg",
+     "tags": [
+      "alt1",
+      "can",
+      "full",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 526
+    },
+    {
+     "id": "trash_can_alt1_open",
+     "name": "Trash Can Alt1 Open",
+     "file": "trash_can_alt1_open.glb",
+     "size": 65344,
+     "thumb": "thumbnails/urban/trash_can_alt1_open.jpg",
+     "tags": [
+      "alt1",
+      "can",
+      "litter",
+      "open",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_alt1_overflowing",
+     "name": "Trash Can Alt1 Overflowing",
+     "file": "trash_can_alt1_overflowing.glb",
+     "size": 146980,
+     "thumb": "thumbnails/urban/trash_can_alt1_overflowing.jpg",
+     "tags": [
+      "alt1",
+      "can",
+      "litter",
+      "overflowing",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 714
+    },
+    {
+     "id": "trash_can_alt2",
+     "name": "Trash Can Alt2",
+     "file": "trash_can_alt2.glb",
+     "size": 65272,
+     "thumb": "thumbnails/urban/trash_can_alt2.jpg",
+     "tags": [
+      "alt2",
+      "can",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_alt2_full",
+     "name": "Trash Can Alt2 Full",
+     "file": "trash_can_alt2_full.glb",
+     "size": 109620,
+     "thumb": "thumbnails/urban/trash_can_alt2_full.jpg",
+     "tags": [
+      "alt2",
+      "can",
+      "full",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 526
+    },
+    {
+     "id": "trash_can_alt2_open",
+     "name": "Trash Can Alt2 Open",
+     "file": "trash_can_alt2_open.glb",
+     "size": 65344,
+     "thumb": "thumbnails/urban/trash_can_alt2_open.jpg",
+     "tags": [
+      "alt2",
+      "can",
+      "litter",
+      "open",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_alt2_overflowing",
+     "name": "Trash Can Alt2 Overflowing",
+     "file": "trash_can_alt2_overflowing.glb",
+     "size": 147008,
+     "thumb": "thumbnails/urban/trash_can_alt2_overflowing.jpg",
+     "tags": [
+      "alt2",
+      "can",
+      "litter",
+      "overflowing",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 714
+    },
+    {
+     "id": "trash_can_full",
+     "name": "Trash Can Full",
+     "file": "trash_can_full.glb",
+     "size": 109616,
+     "thumb": "thumbnails/urban/trash_can_full.jpg",
+     "tags": [
+      "can",
+      "full",
+      "litter",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 526
+    },
+    {
+     "id": "trash_can_open",
+     "name": "Trash Can Open",
+     "file": "trash_can_open.glb",
+     "size": 65336,
+     "thumb": "thumbnails/urban/trash_can_open.jpg",
+     "tags": [
+      "can",
+      "litter",
+      "open",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 484
+    },
+    {
+     "id": "trash_can_overflowing",
+     "name": "Trash Can Overflowing",
+     "file": "trash_can_overflowing.glb",
+     "size": 146972,
+     "thumb": "thumbnails/urban/trash_can_overflowing.jpg",
+     "tags": [
+      "can",
+      "litter",
+      "overflowing",
+      "trash",
+      "trashcan"
+     ],
+     "tris": 714
+    },
+    {
+     "id": "trashbag_1",
+     "name": "Trashbag 1",
+     "file": "trashbag_1.glb",
+     "size": 31004,
+     "thumb": "thumbnails/urban/trashbag_1.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 94
+    },
+    {
+     "id": "trashbag_1_blue",
+     "name": "Trashbag 1 Blue",
+     "file": "trashbag_1_blue.glb",
+     "size": 31012,
+     "thumb": "thumbnails/urban/trashbag_1_blue.jpg",
+     "tags": [
+      "blue",
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 94
+    },
+    {
+     "id": "trashbag_1_red",
+     "name": "Trashbag 1 Red",
+     "file": "trashbag_1_red.glb",
+     "size": 31012,
+     "thumb": "thumbnails/urban/trashbag_1_red.jpg",
+     "tags": [
+      "litter",
+      "red",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 94
+    },
+    {
+     "id": "trashbag_1_white",
+     "name": "Trashbag 1 White",
+     "file": "trashbag_1_white.glb",
+     "size": 31016,
+     "thumb": "thumbnails/urban/trashbag_1_white.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag",
+      "white"
+     ],
+     "tris": 94
+    },
+    {
+     "id": "trashbag_2",
+     "name": "Trashbag 2",
+     "file": "trashbag_2.glb",
+     "size": 31828,
+     "thumb": "thumbnails/urban/trashbag_2.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 106
+    },
+    {
+     "id": "trashbag_2_blue",
+     "name": "Trashbag 2 Blue",
+     "file": "trashbag_2_blue.glb",
+     "size": 31884,
+     "thumb": "thumbnails/urban/trashbag_2_blue.jpg",
+     "tags": [
+      "blue",
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 106
+    },
+    {
+     "id": "trashbag_2_red",
+     "name": "Trashbag 2 Red",
+     "file": "trashbag_2_red.glb",
+     "size": 31884,
+     "thumb": "thumbnails/urban/trashbag_2_red.jpg",
+     "tags": [
+      "litter",
+      "red",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 106
+    },
+    {
+     "id": "trashbag_2_white",
+     "name": "Trashbag 2 White",
+     "file": "trashbag_2_white.glb",
+     "size": 31888,
+     "thumb": "thumbnails/urban/trashbag_2_white.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag",
+      "white"
+     ],
+     "tris": 106
+    },
+    {
+     "id": "trashbag_3",
+     "name": "Trashbag 3",
+     "file": "trashbag_3.glb",
+     "size": 80556,
+     "thumb": "thumbnails/urban/trashbag_3.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 110
+    },
+    {
+     "id": "trashbag_3_blue",
+     "name": "Trashbag 3 Blue",
+     "file": "trashbag_3_blue.glb",
+     "size": 80560,
+     "thumb": "thumbnails/urban/trashbag_3_blue.jpg",
+     "tags": [
+      "blue",
+      "litter",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 110
+    },
+    {
+     "id": "trashbag_3_red",
+     "name": "Trashbag 3 Red",
+     "file": "trashbag_3_red.glb",
+     "size": 80560,
+     "thumb": "thumbnails/urban/trashbag_3_red.jpg",
+     "tags": [
+      "litter",
+      "red",
+      "trash",
+      "trashbag"
+     ],
+     "tris": 110
+    },
+    {
+     "id": "trashbag_3_white",
+     "name": "Trashbag 3 White",
+     "file": "trashbag_3_white.glb",
+     "size": 80564,
+     "thumb": "thumbnails/urban/trashbag_3_white.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashbag",
+      "white"
+     ],
+     "tris": 110
+    },
+    {
+     "id": "trashpile_1",
+     "name": "Trashpile 1",
+     "file": "trashpile_1.glb",
+     "size": 50436,
+     "thumb": "thumbnails/urban/trashpile_1.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashpile"
+     ],
+     "tris": 20
+    },
+    {
+     "id": "trashpile_2.006",
+     "name": "Trashpile 2.006",
+     "file": "trashpile_2.006.glb",
+     "size": 46516,
+     "thumb": "thumbnails/urban/trashpile_2.006.jpg",
+     "tags": [
+      "litter",
+      "metal",
+      "trashcan",
+      "trashpile"
+     ],
+     "tris": 70
+    },
+    {
+     "id": "trashpile_2",
+     "name": "Trashpile 2",
+     "file": "trashpile_2.glb",
+     "size": 46412,
+     "thumb": "thumbnails/urban/trashpile_2.jpg",
+     "tags": [
+      "litter",
+      "trash",
+      "trashpile"
+     ],
+     "tris": 70
+    },
+    {
+     "id": "type_2_barrier_top",
+     "name": "Type 2 Barrier Top",
+     "file": "Type_2_barrier_top.glb",
+     "size": 44468,
+     "thumb": "thumbnails/urban/type_2_barrier_top.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "cones",
+      "top",
+      "type"
+     ],
+     "tris": 72
+    },
+    {
+     "id": "type_2_barrier_top_bottom",
+     "name": "Type 2 Barrier Top Bottom",
+     "file": "Type_2_barrier_top_bottom.glb",
+     "size": 45896,
+     "thumb": "thumbnails/urban/type_2_barrier_top_bottom.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "bottom",
+      "cones",
+      "top",
+      "type"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "type_2_barrier_top_bottom_wood",
+     "name": "Type 2 Barrier Top Bottom Wood",
+     "file": "Type_2_barrier_top_bottom_wood.glb",
+     "size": 46160,
+     "thumb": "thumbnails/urban/type_2_barrier_top_bottom_wood.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "bottom",
+      "cones",
+      "top",
+      "type",
+      "wood"
+     ],
+     "tris": 96
+    },
+    {
+     "id": "type_3_barrier_2_planks",
+     "name": "Type 3 Barrier 2 Planks",
+     "file": "Type_3_barrier_2_planks.glb",
+     "size": 45576,
+     "thumb": "thumbnails/urban/type_3_barrier_2_planks.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "cones",
+      "planks",
+      "type"
+     ],
+     "tris": 100
+    },
+    {
+     "id": "type_3_barrier_3_planks",
+     "name": "Type 3 Barrier 3 Planks",
+     "file": "Type_3_barrier_3_planks.glb",
+     "size": 46376,
+     "thumb": "thumbnails/urban/type_3_barrier_3_planks.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "cones",
+      "planks",
+      "type"
+     ],
+     "tris": 112
+    },
+    {
+     "id": "type_3_barrier_broken_planks",
+     "name": "Type 3 Barrier Broken Planks",
+     "file": "Type_3_barrier_broken_planks.glb",
+     "size": 45540,
+     "thumb": "thumbnails/urban/type_3_barrier_broken_planks.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "broken",
+      "cones",
+      "planks",
+      "type"
+     ],
+     "tris": 100
+    },
+    {
+     "id": "type_3_barrier_plank",
+     "name": "Type 3 Barrier Plank",
+     "file": "Type_3_barrier_plank.glb",
+     "size": 40260,
+     "thumb": "thumbnails/urban/type_3_barrier_plank.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "cones",
+      "plank",
+      "type"
+     ],
+     "tris": 12
+    },
+    {
+     "id": "type_3_barrier_stilts",
+     "name": "Type 3 Barrier Stilts",
+     "file": "Type_3_barrier_stilts.glb",
+     "size": 43852,
+     "thumb": "thumbnails/urban/type_3_barrier_stilts.jpg",
+     "tags": [
+      "barrier",
+      "barriers",
+      "cones",
+      "stilts",
+      "type"
+     ],
+     "tris": 76
+    },
+    {
+     "id": "valve_blue",
+     "name": "Valve Blue",
+     "file": "valve_blue.glb",
+     "size": 21184,
+     "thumb": "thumbnails/urban/valve_blue.jpg",
+     "tags": [
+      "blue",
+      "pipes",
+      "valve"
+     ],
+     "tris": 172
+    },
+    {
+     "id": "valve_blue_end_piece",
+     "name": "Valve Blue End Piece",
+     "file": "valve_blue_end_piece.glb",
+     "size": 39056,
+     "thumb": "thumbnails/urban/valve_blue_end_piece.jpg",
+     "tags": [
+      "blue",
+      "end",
+      "piece",
+      "pipes",
+      "valve"
+     ],
+     "tris": 220
+    },
+    {
+     "id": "valve_blue_end_piece_rusted",
+     "name": "Valve Blue End Piece Rusted",
+     "file": "valve_blue_end_piece_rusted.glb",
+     "size": 39060,
+     "thumb": "thumbnails/urban/valve_blue_end_piece_rusted.jpg",
+     "tags": [
+      "blue",
+      "end",
+      "piece",
+      "pipes",
+      "rusted",
+      "valve"
+     ],
+     "tris": 220
+    },
+    {
+     "id": "valve_blue_with_handle",
+     "name": "Valve Blue With Handle",
+     "file": "valve_blue_with_handle.glb",
+     "size": 22596,
+     "thumb": "thumbnails/urban/valve_blue_with_handle.jpg",
+     "tags": [
+      "blue",
+      "handle",
+      "pipes",
+      "valve",
+      "with"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "valve_red",
+     "name": "Valve Red",
+     "file": "valve_red.glb",
+     "size": 21072,
+     "thumb": "thumbnails/urban/valve_red.jpg",
+     "tags": [
+      "pipes",
+      "red",
+      "valve"
+     ],
+     "tris": 172
+    },
+    {
+     "id": "valve_red_end_piece",
+     "name": "Valve Red End Piece",
+     "file": "valve_red_end_piece.glb",
+     "size": 38944,
+     "thumb": "thumbnails/urban/valve_red_end_piece.jpg",
+     "tags": [
+      "end",
+      "piece",
+      "pipes",
+      "red",
+      "valve"
+     ],
+     "tris": 220
+    },
+    {
+     "id": "valve_red_end_piece_rusted",
+     "name": "Valve Red End Piece Rusted",
+     "file": "valve_red_end_piece_rusted.glb",
+     "size": 38952,
+     "thumb": "thumbnails/urban/valve_red_end_piece_rusted.jpg",
+     "tags": [
+      "end",
+      "piece",
+      "pipes",
+      "red",
+      "rusted",
+      "valve"
+     ],
+     "tris": 220
+    },
+    {
+     "id": "valve_red_with_handle",
+     "name": "Valve Red With Handle",
+     "file": "valve_red_with_handle.glb",
+     "size": 22484,
+     "thumb": "thumbnails/urban/valve_red_with_handle.jpg",
+     "tags": [
+      "handle",
+      "pipes",
+      "red",
+      "valve",
+      "with"
+     ],
+     "tris": 192
+    },
+    {
+     "id": "vent_cover",
+     "name": "Vent Cover",
+     "file": "vent_cover.glb",
+     "size": 38516,
+     "thumb": "thumbnails/urban/vent_cover.jpg",
+     "tags": [
+      "cover",
+      "vent",
+      "vents"
+     ],
+     "tris": 44
+    },
+    {
+     "id": "vent_cover_see_through",
+     "name": "Vent Cover See Through",
+     "file": "vent_cover_see_through.glb",
+     "size": 50296,
+     "thumb": "thumbnails/urban/vent_cover_see_through.jpg",
+     "tags": [
+      "cover",
+      "see",
+      "through",
+      "vent",
+      "vents"
+     ],
+     "tris": 212
+    },
+    {
+     "id": "vent_cover_see_through_damaged",
+     "name": "Vent Cover See Through Damaged",
+     "file": "vent_cover_see_through_damaged.glb",
+     "size": 55276,
+     "thumb": "thumbnails/urban/vent_cover_see_through_damaged.jpg",
+     "tags": [
+      "cover",
+      "damaged",
+      "see",
+      "through",
+      "vent",
+      "vents"
+     ],
+     "tris": 288
+    },
+    {
+     "id": "white_picket_fence_closed_left",
+     "name": "White Picket Fence Closed Left",
+     "file": "white_picket_fence_closed_left.glb",
+     "size": 34508,
+     "thumb": "thumbnails/urban/white_picket_fence_closed_left.jpg",
+     "tags": [
+      "closed",
+      "fence",
+      "fences",
+      "left",
+      "picket",
+      "walls",
+      "white"
+     ],
+     "tris": 156
+    },
+    {
+     "id": "white_picket_fence_closed_right",
+     "name": "White Picket Fence Closed Right",
+     "file": "white_picket_fence_closed_right.glb",
+     "size": 34200,
+     "thumb": "thumbnails/urban/white_picket_fence_closed_right.jpg",
+     "tags": [
+      "closed",
+      "fence",
+      "fences",
+      "picket",
+      "right",
+      "walls",
+      "white"
+     ],
+     "tris": 156
+    },
+    {
+     "id": "white_picket_fence_gate",
+     "name": "White Picket Fence Gate",
+     "file": "white_picket_fence_gate.glb",
+     "size": 30188,
+     "thumb": "thumbnails/urban/white_picket_fence_gate.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "picket",
+      "walls",
+      "white"
+     ],
+     "tris": 113
+    },
+    {
+     "id": "white_picket_fence_gate_2",
+     "name": "White Picket Fence Gate",
+     "file": "white_picket_fence_gate_2.glb",
+     "size": 30152,
+     "thumb": "thumbnails/urban/white_picket_fence_gate_2.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "picket",
+      "white"
+     ],
+     "tris": 113
+    },
+    {
+     "id": "white_picket_fence_gate_poles",
+     "name": "White Picket Fence Gate Poles",
+     "file": "white_picket_fence_gate_poles.glb",
+     "size": 25988,
+     "thumb": "thumbnails/urban/white_picket_fence_gate_poles.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "gate",
+      "picket",
+      "poles",
+      "walls",
+      "white"
+     ],
+     "tris": 72
+    },
+    {
+     "id": "white_picket_fence_open_left",
+     "name": "White Picket Fence Open Left",
+     "file": "white_picket_fence_open_left.glb",
+     "size": 30676,
+     "thumb": "thumbnails/urban/white_picket_fence_open_left.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "left",
+      "open",
+      "picket",
+      "walls",
+      "white"
+     ],
+     "tris": 120
+    },
+    {
+     "id": "white_picket_fence_open_right",
+     "name": "White Picket Fence Open Right",
+     "file": "white_picket_fence_open_right.glb",
+     "size": 30676,
+     "thumb": "thumbnails/urban/white_picket_fence_open_right.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "open",
+      "picket",
+      "right",
+      "walls",
+      "white"
+     ],
+     "tris": 120
+    },
+    {
+     "id": "white_picket_fence_pole",
+     "name": "White Picket Fence Pole",
+     "file": "white_picket_fence_pole.glb",
+     "size": 23296,
+     "thumb": "thumbnails/urban/white_picket_fence_pole.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "picket",
+      "pole",
+      "walls",
+      "white"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_beam",
+     "name": "Wooden Fence Beam",
+     "file": "wooden_fence_beam.glb",
+     "size": 34876,
+     "thumb": "thumbnails/urban/wooden_fence_beam.jpg",
+     "tags": [
+      "beam",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_beam_alt",
+     "name": "Wooden Fence Beam Alt",
+     "file": "wooden_fence_beam_alt.glb",
+     "size": 34876,
+     "thumb": "thumbnails/urban/wooden_fence_beam_alt.jpg",
+     "tags": [
+      "alt",
+      "beam",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_beam_alt_2",
+     "name": "Wooden Fence Beam Alt 2",
+     "file": "wooden_fence_beam_alt_2.glb",
+     "size": 34880,
+     "thumb": "thumbnails/urban/wooden_fence_beam_alt_2.jpg",
+     "tags": [
+      "alt",
+      "beam",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_broken",
+     "name": "Wooden Fence Broken",
+     "file": "wooden_fence_broken.glb",
+     "size": 39920,
+     "thumb": "thumbnails/urban/wooden_fence_broken.jpg",
+     "tags": [
+      "broken",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "wooden_fence_broken_alt",
+     "name": "Wooden Fence Broken Alt",
+     "file": "wooden_fence_broken_alt.glb",
+     "size": 40204,
+     "thumb": "thumbnails/urban/wooden_fence_broken_alt.jpg",
+     "tags": [
+      "alt",
+      "broken",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 112
+    },
+    {
+     "id": "wooden_fence_broken_alt2",
+     "name": "Wooden Fence Broken Alt2",
+     "file": "wooden_fence_broken_alt2.glb",
+     "size": 45916,
+     "thumb": "thumbnails/urban/wooden_fence_broken_alt2.jpg",
+     "tags": [
+      "alt2",
+      "broken",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 200
+    },
+    {
+     "id": "wooden_fence_closed",
+     "name": "Wooden Fence Closed",
+     "file": "wooden_fence_closed.glb",
+     "size": 42572,
+     "thumb": "thumbnails/urban/wooden_fence_closed.jpg",
+     "tags": [
+      "closed",
+      "fence",
+      "fences",
+      "low",
+      "wooden"
+     ],
+     "tris": 144
+    },
+    {
+     "id": "wooden_fence_oen_crossed",
+     "name": "Wooden Fence Oen Crossed",
+     "file": "wooden_fence_oen_crossed.glb",
+     "size": 39928,
+     "thumb": "thumbnails/urban/wooden_fence_oen_crossed.jpg",
+     "tags": [
+      "crossed",
+      "fence",
+      "fences",
+      "low",
+      "oen",
+      "wooden"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "wooden_fence_open",
+     "name": "Wooden Fence Open",
+     "file": "wooden_fence_open.glb",
+     "size": 39920,
+     "thumb": "thumbnails/urban/wooden_fence_open.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "low",
+      "open",
+      "wooden"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "wooden_fence_open_alt",
+     "name": "Wooden Fence Open Alt",
+     "file": "wooden_fence_open_alt.glb",
+     "size": 39924,
+     "thumb": "thumbnails/urban/wooden_fence_open_alt.jpg",
+     "tags": [
+      "alt",
+      "fence",
+      "fences",
+      "low",
+      "open",
+      "wooden"
+     ],
+     "tris": 108
+    },
+    {
+     "id": "wooden_fence_pile",
+     "name": "Wooden Fence Pile",
+     "file": "wooden_fence_pile.glb",
+     "size": 37736,
+     "thumb": "thumbnails/urban/wooden_fence_pile.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "low",
+      "pile",
+      "wooden"
+     ],
+     "tris": 76
+    },
+    {
+     "id": "wooden_fence_pole",
+     "name": "Wooden Fence Pole",
+     "file": "wooden_fence_pole.glb",
+     "size": 34928,
+     "thumb": "thumbnails/urban/wooden_fence_pole.jpg",
+     "tags": [
+      "fence",
+      "fences",
+      "low",
+      "pole",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_pole_alt",
+     "name": "Wooden Fence Pole Alt",
+     "file": "wooden_fence_pole_alt.glb",
+     "size": 34932,
+     "thumb": "thumbnails/urban/wooden_fence_pole_alt.jpg",
+     "tags": [
+      "alt",
+      "fence",
+      "fences",
+      "low",
+      "pole",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_pole_alt_2",
+     "name": "Wooden Fence Pole Alt 2",
+     "file": "wooden_fence_pole_alt_2.glb",
+     "size": 34936,
+     "thumb": "thumbnails/urban/wooden_fence_pole_alt_2.jpg",
+     "tags": [
+      "alt",
+      "fence",
+      "fences",
+      "low",
+      "pole",
+      "wooden"
+     ],
+     "tris": 36
+    },
+    {
+     "id": "wooden_fence_pole_broken_large",
+     "name": "Wooden Fence Pole Broken Large",
+     "file": "wooden_fence_pole_broken_large.glb",
+     "size": 37664,
+     "thumb": "thumbnails/urban/wooden_fence_pole_broken_large.jpg",
+     "tags": [
+      "broken",
+      "fence",
+      "fences",
+      "large",
+      "low",
+      "pole",
+      "wooden"
+     ],
+     "tris": 78
+    },
+    {
+     "id": "wooden_fence_pole_broken_small",
+     "name": "Wooden Fence Pole Broken Small",
+     "file": "wooden_fence_pole_broken_small.glb",
+     "size": 35420,
+     "thumb": "thumbnails/urban/wooden_fence_pole_broken_small.jpg",
+     "tags": [
+      "broken",
+      "fence",
+      "fences",
+      "low",
+      "pole",
+      "small",
+      "wooden"
+     ],
+     "tris": 46
+    }
+   ]
+  }
+ ]
 }
